@@ -1,0 +1,141 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e9b29a7c-bbe5-4ab4-acee-985586e1266a")
+	(paper "A4")
+	(lib_symbols)
+	(text "Linux based scout UAV"
+		(exclude_from_sim no)
+		(at 146.304 21.336 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "979bc070-3019-4482-95ea-736359afd564")
+	)
+	(sheet
+		(at 242.57 49.53)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11e30b03-ac56-4799-8697-ab8c9af69bda")
+		(property "Sheetname" "osd32mp1-3"
+			(at 242.57 48.8184 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osd32mp1-3.kicad_sch"
+			(at 242.57 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 31.75)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca9cfa5e-aa01-448c-a102-3f8df19a8422")
+		(property "Sheetname" "osd32mp1-power-1"
+			(at 242.57 31.0384 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osd32mp1-power-1.kicad_sch"
+			(at 242.57 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 40.64)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec3f42cd-4cf8-4535-a092-0d9cee8969c9")
+		(property "Sheetname" "osd32mp1-2"
+			(at 242.57 39.9284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osd32mp1-2.kicad_sch"
+			(at 242.57 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
