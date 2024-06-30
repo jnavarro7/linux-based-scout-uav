@@ -8842,7 +8842,7 @@
 			(uuid "50526c6f-731a-4b37-855b-933ad7108acf")
 		)
 		(instances
-			(project ""
+			(project "linux-based-scout-uav"
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ca9cfa5e-aa01-448c-a102-3f8df19a8422"
 					(reference "#PWR01")
 					(unit 1)
@@ -11028,7 +11028,7 @@
 			(uuid "701ec5d2-fe6b-403e-be6d-95bf57924dfb")
 		)
 		(instances
-			(project ""
+			(project "linux-based-scout-uav"
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ca9cfa5e-aa01-448c-a102-3f8df19a8422"
 					(reference "#PWR02")
 					(unit 1)

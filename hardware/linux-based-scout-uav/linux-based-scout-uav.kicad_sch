@@ -56,6 +56,45 @@
 		)
 	)
 	(sheet
+		(at 242.57 59.69)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c3af416-1467-4fa8-83b8-68cc3641295b")
+		(property "Sheetname" "battery-power"
+			(at 242.57 58.9784 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery-power.kicad_sch"
+			(at 242.57 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 242.57 31.75)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
@@ -67,7 +106,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ca9cfa5e-aa01-448c-a102-3f8df19a8422")
-		(property "Sheetname" "osd32mp1-power-1"
+		(property "Sheetname" "osd32mp1-1-power"
 			(at 242.57 31.0384 0)
 			(show_name yes)
 			(effects
@@ -77,7 +116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "osd32mp1-power-1.kicad_sch"
+		(property "Sheetfile" "osd32mp1-1-power.kicad_sch"
 			(at 242.57 36.1446 0)
 			(effects
 				(font

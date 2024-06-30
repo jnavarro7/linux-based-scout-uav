@@ -389,7 +389,7 @@
     ],
     [
       "ca9cfa5e-aa01-448c-a102-3f8df19a8422",
-      "osd32mp1-power-1"
+      "osd32mp1-1-power"
     ],
     [
       "ec3f42cd-4cf8-4535-a092-0d9cee8969c9",
@@ -398,6 +398,10 @@
     [
       "11e30b03-ac56-4799-8697-ab8c9af69bda",
       "osd32mp1-3"
+    ],
+    [
+      "5c3af416-1467-4fa8-83b8-68cc3641295b",
+      "battery-power"
     ]
   ],
   "text_variables": {}
