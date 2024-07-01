@@ -444,10 +444,150 @@
 				)
 			)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
-			(xy 87.63 64.77) (xy 87.63 57.15)
+			(xy 172.72 86.36) (xy 172.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccc85ba-0d5e-48f8-ab71-0844842b12e0")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 194.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694fcb25-98f6-475f-a114-555009fa9cbe")
+	)
+	(wire
+		(pts
+			(xy 90.17 80.01) (xy 90.17 72.39)
 		)
 		(stroke
 			(width 0)
@@ -457,7 +597,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 64.77) (xy 87.63 64.77)
+			(xy 92.71 80.01) (xy 90.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -467,7 +607,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 67.31) (xy 87.63 73.66)
+			(xy 194.31 86.36) (xy 172.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944ae76b-5932-4f6d-8b93-8a517d4e3a70")
+	)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 90.17 88.9)
 		)
 		(stroke
 			(width 0)
@@ -477,7 +627,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 67.31) (xy 87.63 67.31)
+			(xy 92.71 82.55) (xy 90.17 82.55)
 		)
 		(stroke
 			(width 0)
@@ -485,9 +635,29 @@
 		)
 		(uuid "fe546fa8-b5c9-44be-b029-ac395d1ea140")
 	)
+	(text "2S-6S LiPo battery "
+		(exclude_from_sim no)
+		(at 101.346 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b0ef54b-61be-4519-a544-9efa33f2d1ad")
+	)
+	(text "Battery Power\nバッテリー電源"
+		(exclude_from_sim no)
+		(at 152.4 25.908 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "3399ca35-3eba-4617-8c25-b263622a7984")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 73.66 0)
+		(at 90.17 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -496,7 +666,7 @@
 		(fields_autoplaced yes)
 		(uuid "23f240d6-9ed3-445d-bd91-af9cb4796d4e")
 		(property "Reference" "#PWR03"
-			(at 87.63 80.01 0)
+			(at 90.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -505,7 +675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 78.74 0)
+			(at 90.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 73.66 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 73.66 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 73.66 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,8 +722,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 172.72 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "832a7df5-bef2-4e8d-8d39-525baf2af5a5")
+		(property "Reference" "#PWR06"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afb20e31-1aae-4821-bfa4-a4ee4b8560d0")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/5c3af416-1467-4fa8-83b8-68cc3641295b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 194.31 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cac46c6-5977-43ba-9b1d-90d849cd7057")
+		(property "Reference" "#PWR05"
+			(at 194.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8c8b43c-cb92-4666-8c0b-4d4bacc648fb")
+		)
+		(instances
+			(project ""
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/5c3af416-1467-4fa8-83b8-68cc3641295b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XT60PW-M:XT60PW-M")
-		(at 100.33 67.31 0)
+		(at 102.87 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -562,7 +864,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8d68ffe-86e7-4e61-b03d-eba279ae4473")
 		(property "Reference" "J1"
-			(at 106.68 64.7699 0)
+			(at 109.22 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +873,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 106.68 67.3099 0)
+			(at 109.22 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +882,7 @@
 			)
 		)
 		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +901,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +910,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +920,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +930,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,7 +940,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,7 +950,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +960,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +970,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +980,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +990,7 @@
 			)
 		)
 		(property "MP" "XT60PW-M"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,7 +1000,7 @@
 			)
 		)
 		(property "Description_1" "\nSocket, DC supply, male, PIN: 2\n"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +1010,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +1020,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 100.33 67.31 0)
+			(at 102.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +1046,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 87.63 57.15 0)
+		(at 90.17 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -753,7 +1055,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd64dee4-a7cd-402c-851b-986c08e1f3a4")
 		(property "Reference" "#PWR04"
-			(at 87.63 60.96 0)
+			(at 90.17 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +1064,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 87.63 52.07 0)
+			(at 90.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +1072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 57.15 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,7 +1081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 57.15 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,7 +1090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 87.63 57.15 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

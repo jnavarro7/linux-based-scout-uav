@@ -5,9 +5,9 @@
 	(uuid "e9b29a7c-bbe5-4ab4-acee-985586e1266a")
 	(paper "A4")
 	(lib_symbols)
-	(text "Linux based scout UAV"
+	(text "Linux based scout UAV\nLinuxベースのスカウトUAV"
 		(exclude_from_sim no)
-		(at 146.304 21.336 0)
+		(at 152.908 30.988 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -17,7 +17,7 @@
 		(uuid "979bc070-3019-4482-95ea-736359afd564")
 	)
 	(sheet
-		(at 242.57 49.53)
+		(at 25.4 78.74)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -29,7 +29,7 @@
 		)
 		(uuid "11e30b03-ac56-4799-8697-ab8c9af69bda")
 		(property "Sheetname" "osd32mp1-3"
-			(at 242.57 48.8184 0)
+			(at 25.4 78.0284 0)
 			(show_name yes)
 			(effects
 				(font
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "osd32mp1-3.kicad_sch"
-			(at 242.57 53.9246 0)
+			(at 25.4 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		)
 	)
 	(sheet
-		(at 242.57 59.69)
+		(at 25.4 88.9)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -68,7 +68,7 @@
 		)
 		(uuid "5c3af416-1467-4fa8-83b8-68cc3641295b")
 		(property "Sheetname" "battery-power"
-			(at 242.57 58.9784 0)
+			(at 25.4 88.1884 0)
 			(show_name yes)
 			(effects
 				(font
@@ -78,7 +78,7 @@
 			)
 		)
 		(property "Sheetfile" "battery-power.kicad_sch"
-			(at 242.57 64.0846 0)
+			(at 25.4 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,7 +95,46 @@
 		)
 	)
 	(sheet
-		(at 242.57 31.75)
+		(at 25.4 99.06)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a91084ce-30c2-4c08-a9de-234ec8328b30")
+		(property "Sheetname" "power-section-1"
+			(at 25.4 98.3484 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-section-1.kicad_sch"
+			(at 25.4 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 60.96)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -107,7 +146,7 @@
 		)
 		(uuid "ca9cfa5e-aa01-448c-a102-3f8df19a8422")
 		(property "Sheetname" "osd32mp1-1-power"
-			(at 242.57 31.0384 0)
+			(at 25.4 60.2484 0)
 			(show_name yes)
 			(effects
 				(font
@@ -117,7 +156,7 @@
 			)
 		)
 		(property "Sheetfile" "osd32mp1-1-power.kicad_sch"
-			(at 242.57 36.1446 0)
+			(at 25.4 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,7 +173,7 @@
 		)
 	)
 	(sheet
-		(at 242.57 40.64)
+		(at 25.4 69.85)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -146,7 +185,7 @@
 		)
 		(uuid "ec3f42cd-4cf8-4535-a092-0d9cee8969c9")
 		(property "Sheetname" "osd32mp1-2"
-			(at 242.57 39.9284 0)
+			(at 25.4 69.1384 0)
 			(show_name yes)
 			(effects
 				(font
@@ -156,7 +195,7 @@
 			)
 		)
 		(property "Sheetfile" "osd32mp1-2.kicad_sch"
-			(at 242.57 45.0346 0)
+			(at 25.4 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,6 +207,44 @@
 			(project "linux-based-scout-uav"
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 109.22)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4be968c-f899-42aa-ac94-31afc2cbe6bb")
+		(property "Sheetname" "storage"
+			(at 26.67 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 26.67 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "7")
 				)
 			)
 		)
