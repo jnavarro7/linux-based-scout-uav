@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "92ea33d5-062d-4830-b276-8ce3ceb0f010")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "OSD32MP157C-512M-IAA:OSD32MP157C-512M-IAA"
 			(pin_names
@@ -6456,6 +6456,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 97.79) (xy 252.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baa91f7-fc02-44be-8b54-8d5f8fe9db16")
+	)
+	(wire
+		(pts
 			(xy 241.3 67.31) (xy 251.46 67.31)
 		)
 		(stroke
@@ -6503,6 +6513,29 @@
 			(type default)
 		)
 		(uuid "f3f8f985-4b36-4fb5-8694-2d811823d3ec")
+	)
+	(global_label "SDMMC1_CMD"
+		(shape bidirectional)
+		(at 251.46 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65d7bcfb-2a6a-44b7-adbb-3e773a5a9916")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.3773 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SDMMC1_D2"
 		(shape bidirectional)
@@ -6583,6 +6616,29 @@
 		(uuid "bbd51d4d-ae59-44bc-b738-b674929fdbc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 266.8654 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDMMC1_CMD"
+		(shape bidirectional)
+		(at 252.73 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc0d31c4-4d7b-476b-8b0e-a05f77900916")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.6473 97.79 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "9aa1d404-3b1d-4d41-937d-17c1a71716b6")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "OSD32MP157C-512M-IAA:OSD32MP157C-512M-IAA"
 			(pin_names
