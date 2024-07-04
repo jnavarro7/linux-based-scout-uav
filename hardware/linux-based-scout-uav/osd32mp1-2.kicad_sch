@@ -6650,7 +6650,7 @@
 	)
 	(symbol
 		(lib_id "OSD32MP157C-512M-IAA:OSD32MP157C-512M-IAA")
-		(at 298.45 130.81 0)
+		(at 167.64 204.47 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6659,7 +6659,7 @@
 		(fields_autoplaced yes)
 		(uuid "337c3a52-2de3-460c-b8fb-74e38e277452")
 		(property "Reference" "U1"
-			(at 350.52 113.0299 0)
+			(at 219.71 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +6668,7 @@
 			)
 		)
 		(property "Value" "OSD32MP157C-512M-IAA"
-			(at 350.52 115.5699 0)
+			(at 219.71 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,7 +6677,7 @@
 			)
 		)
 		(property "Footprint" "OSD32MP157C-512M-IAA:OSD32MP15X-BGA-324"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6705,7 @@
 			)
 		)
 		(property "MF" "Octavo Systems LLC"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6715,7 @@
 			)
 		)
 		(property "Description_1" "\nOSD32MP15x Embedded Module Arm® Dual Cortex®-A7, Arm® Cortex®-M4 NEON™ SIMD 650MHz, 209MHz\n"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6725,7 @@
 			)
 		)
 		(property "Package" "BGA-302 Octavo Systems"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6735,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6745,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OSD32MP157C-512M-IAA/Octavo+Systems+LLC/view-part/?ref=snap"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6755,7 @@
 			)
 		)
 		(property "MP" "OSD32MP157C-512M-IAA"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +6765,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4998964&manufacturer=Octavo Systems LLC&part_name=OSD32MP157C-512M-IAA&search_term=osd32mp1"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +6775,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +6785,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OSD32MP157C-512M-IAA/Octavo+Systems+LLC/view-part/?ref=eda"
-			(at 298.45 130.81 0)
+			(at 167.64 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
