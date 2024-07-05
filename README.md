@@ -1,6 +1,8 @@
 # linux-based-scout-uav
  Linux based scout UAV
 
+ LinuxベースのスカウトUAV
+
 # What it is:
 Hobby project to create a UAV (Unmanned aerial vehicle) in a quadcopter drone format, based on the OSD32MP1 SiP which is a Linux capable system. 
 
@@ -12,7 +14,7 @@ Hobby project to create a UAV (Unmanned aerial vehicle) in a quadcopter drone fo
 The system block diagram is still a work in progress.
 Still looking for a good option on ESC (electronic speed controller) for the drone. Maybe CAN bus based systems can be used as there is a CAN bus available in the OSD32MP1 SiP. 
 
-![](/doc/block_diagram_v0.6.jpg.jpeg)
+![](/doc/block_diagram_v0.7.jpg.jpeg)
 
 # Software/Firmware 
 
