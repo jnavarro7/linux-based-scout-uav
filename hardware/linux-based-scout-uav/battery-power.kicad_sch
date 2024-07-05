@@ -647,7 +647,7 @@
 	)
 	(text "Battery Power\nバッテリー電源"
 		(exclude_from_sim no)
-		(at 152.4 25.908 0)
+		(at 201.168 27.178 0)
 		(effects
 			(font
 				(size 7.62 7.62)

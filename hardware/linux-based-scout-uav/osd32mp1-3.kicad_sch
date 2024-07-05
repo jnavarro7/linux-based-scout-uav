@@ -6454,6 +6454,16 @@
 			)
 		)
 	)
+	(text "OSD32MP1"
+		(exclude_from_sim no)
+		(at 205.486 22.86 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "187afd76-8140-4436-8618-6b66b6178e51")
+	)
 	(symbol
 		(lib_id "OSD32MP157C-512M-IAA:OSD32MP157C-512M-IAA")
 		(at 95.25 181.61 0)
