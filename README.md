@@ -36,19 +36,18 @@ I will base my work on Octavo's OSD32MP1-BRK device tree and modify it as needed
 
 Based on the OSD32MP1: 
 
- ST32MP15x Features:
- Arm® Cortex®-A7 up to 800MHz x2
- Arm® Cortex®-M4 up to 209MHz
- NEON™SIMD Coprocessor x2
- TrustZone®
- USB 2.0 HS + PHY x2
- Ethernet 10/100/1000
- CAN FD/TTCAN x2, UART x4, USART x4,SPI x6, I2C x6, SAI x4, QSPI, SPDIF, I2S x3
- eMMC/SD/SDIO Ports x3
- GPIO x148
- 24-bit RGB Display, MIPI DSI
- Camera Interface
- 22 Channel 16-bit ADC x2, 12-bit DAC x2
+    ST32MP15x Features:
+    Arm® Cortex®-A7 up to 800MHz x2
+    Arm® Cortex®-M4 up to 209MHz
+    NEON™SIMD Coprocessor x2
+    USB 2.0 HS + PHY x2
+    Ethernet 10/100/1000
+    CAN FD/TTCAN x2, UART x4, USART x4,SPI x6, I2C x6, SAI x4, QSPI, SPDIF, I2S x3
+    eMMC/SD/SDIO Ports x3
+    GPIO x148
+    24-bit RGB Display, MIPI DSI
+    Camera Interface
+    22 Channel 16-bit ADC x2, 12-bit DAC x2
  
 The SiP has an embedded ARM Cortex M4 sub-system which can be used by creating firmware in ST Cube IDE. 
 
