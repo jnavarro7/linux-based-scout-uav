@@ -14,8 +14,10 @@ Hobby project to create a UAV (Unmanned aerial vehicle) in a quadcopter drone fo
 The system block diagram is still a work in progress.
 Still looking for a good option on ESC (electronic speed controller) for the drone. Maybe CAN bus based systems can be used as there is a CAN bus available in the OSD32MP1 SiP. 
 
-![](/doc/block_diagram_v0.7.jpg.jpeg)
+![](/doc/block_diagram_v0.8.jpeg)
 
+System block diagram
+![](/doc/system_block_diagram_v0.1.jpeg)
 # Software/Firmware 
 
 ## Operating system 
