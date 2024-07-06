@@ -134,6 +134,44 @@
 		)
 	)
 	(sheet
+		(at 25.4 127)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b0fb3ce5-1b3a-433c-9ac4-077516adadc9")
+		(property "Sheetname" "quectel-m65-1"
+			(at 25.4 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "quectel-m65-1.kicad_sch"
+			(at 25.4 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 60.96)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
@@ -168,6 +206,44 @@
 			(project "linux-based-scout-uav"
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 135.89)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e37a2e8f-5c01-4343-930e-9e20e12f83a8")
+		(property "Sheetname" "GNSS"
+			(at 25.4 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gnss.kicad_sch"
+			(at 25.4 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "10")
 				)
 			)
 		)
@@ -212,7 +288,45 @@
 		)
 	)
 	(sheet
-		(at 26.67 109.22)
+		(at 25.4 118.11)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ecf4917e-c539-4d94-9930-0d98be4d8645")
+		(property "Sheetname" "long-range-radio-1"
+			(at 25.4 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "long-range-radio-1.kicad_sch"
+			(at 25.4 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 109.22)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -224,7 +338,7 @@
 		)
 		(uuid "f4be968c-f899-42aa-ac94-31afc2cbe6bb")
 		(property "Sheetname" "storage"
-			(at 26.67 108.5084 0)
+			(at 25.4 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,7 +347,7 @@
 			)
 		)
 		(property "Sheetfile" "storage.kicad_sch"
-			(at 26.67 113.6146 0)
+			(at 25.4 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

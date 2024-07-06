@@ -615,6 +615,18 @@
     [
       "f4be968c-f899-42aa-ac94-31afc2cbe6bb",
       "storage"
+    ],
+    [
+      "ecf4917e-c539-4d94-9930-0d98be4d8645",
+      "long-range-radio-1"
+    ],
+    [
+      "b0fb3ce5-1b3a-433c-9ac4-077516adadc9",
+      "quectel-m65-1"
+    ],
+    [
+      "e37a2e8f-5c01-4343-930e-9e20e12f83a8",
+      "GNSS"
     ]
   ],
   "text_variables": {}
