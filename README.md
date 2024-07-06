@@ -20,6 +20,7 @@ Still looking for a good option on ESC (electronic speed controller) for the dro
 
 System block diagram
 ![](/doc/system_block_diagram_v0.1.jpeg)
+
 # Software/Firmware 
 
 ## Operating system 
@@ -58,6 +59,8 @@ Started working on the schematic capture, schematic in PDF format will be added 
 ## Board layout 
 
 Started work on board by trying board shapes and importing the DXF files. Already placed the initial components available, will update as needed. 
+
+![](/doc/board.jpg.jpg)
 
 ## EDA
 
