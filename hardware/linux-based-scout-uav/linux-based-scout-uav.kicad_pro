@@ -627,6 +627,10 @@
     [
       "e37a2e8f-5c01-4343-930e-9e20e12f83a8",
       "GNSS"
+    ],
+    [
+      "a9ccabcb-97a3-46cc-a854-1fb2fda7c97b",
+      "sensors-1"
     ]
   ],
   "text_variables": {}
