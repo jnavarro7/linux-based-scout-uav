@@ -823,6 +823,17 @@
 		)
 		(uuid "6c6b6de0-da29-4980-b872-a7a90c1d0aae")
 	)
+	(text "GNSS"
+		(exclude_from_sim no)
+		(at 203.962 27.178 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "cfe45155-43a7-42ed-8fef-b273b908163e")
+	)
 	(symbol
 		(lib_id "LC76G:LC76G")
 		(at 199.39 128.27 0)

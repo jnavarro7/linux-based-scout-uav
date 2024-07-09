@@ -627,7 +627,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 157.48) (xy 228.6 170.18)
+			(xy 92.71 148.59) (xy 92.71 161.29)
 		)
 		(stroke
 			(width 0)
@@ -635,9 +635,84 @@
 		)
 		(uuid "7ad46eb0-ae84-4bcf-96e7-bb547aea7884")
 	)
+	(wire
+		(pts
+			(xy 57.15 123.19) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b998856-bcbb-4a52-be3a-7eff06c3b628")
+	)
+	(wire
+		(pts
+			(xy 57.15 125.73) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8580546-6bbd-4725-8cf4-665571ef389f")
+	)
+	(text "Sensors"
+		(exclude_from_sim no)
+		(at 213.36 32.766 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "87bbe1b0-4109-4eb4-b90b-85fae7bad402")
+	)
+	(global_label "I2C1_SDA"
+		(shape bidirectional)
+		(at 57.15 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2618265-b828-43e2-b7f4-510373a1e63f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.224 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 57.15 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4901a73-2a15-437c-a347-60f4f21c0d7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3958 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Sensor_Motion:MPU-6050")
-		(at 228.6 139.7 0)
+		(at 92.71 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -646,7 +721,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c79cb4a-1926-4a2b-8fb3-595ad62926db")
 		(property "Reference" "U5"
-			(at 230.7941 156.21 0)
+			(at 94.9041 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +730,7 @@
 			)
 		)
 		(property "Value" "MPU-6050"
-			(at 230.7941 158.75 0)
+			(at 94.9041 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +739,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
-			(at 228.6 160.02 0)
+			(at 92.71 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +748,7 @@
 			)
 		)
 		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
-			(at 228.6 143.51 0)
+			(at 92.71 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,7 +757,7 @@
 			)
 		)
 		(property "Description" "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"
-			(at 228.6 139.7 0)
+			(at 92.71 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -773,7 +848,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 170.18 0)
+		(at 92.71 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -782,7 +857,7 @@
 		(fields_autoplaced yes)
 		(uuid "85be18b3-b0cc-4a43-a0cc-bfe53ad6b098")
 		(property "Reference" "#PWR017"
-			(at 228.6 176.53 0)
+			(at 92.71 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,7 +866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 175.26 0)
+			(at 92.71 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 170.18 0)
+			(at 92.71 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 170.18 0)
+			(at 92.71 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 170.18 0)
+			(at 92.71 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
