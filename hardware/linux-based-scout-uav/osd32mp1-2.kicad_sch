@@ -5,6 +5,127 @@
 	(uuid "92ea33d5-062d-4830-b276-8ce3ceb0f010")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "OSD32MP157C-512M-IAA:OSD32MP157C-512M-IAA"
 			(pin_names
 				(offset 1.016)
@@ -6456,6 +6577,36 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 161.29) (xy 49.53 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdb2a58-1d31-48c7-96ab-07edcd28f49f")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 135.89 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24727888-9c23-4b21-9e38-4ac5799dc4de")
+	)
+	(wire
+		(pts
+			(xy 38.1 151.13) (xy 49.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4575716b-d47b-4e07-82d5-9295d5edba29")
+	)
+	(wire
+		(pts
 			(xy 177.8 147.32) (xy 190.5 147.32)
 		)
 		(stroke
@@ -6463,6 +6614,26 @@
 			(type default)
 		)
 		(uuid "485a09ad-80d8-4f18-9280-d6a6385d7c6f")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512bab8a-1bc3-400d-8f49-5c236b9ac249")
+	)
+	(wire
+		(pts
+			(xy 110.49 151.13) (xy 132.08 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59494073-4753-4bc5-92e5-be555656ca1e")
 	)
 	(wire
 		(pts
@@ -6486,6 +6657,26 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 153.67) (xy 132.08 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3967c7-d700-4149-903c-bb3a6e1e89be")
+	)
+	(wire
+		(pts
+			(xy 110.49 156.21) (xy 132.08 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d188268-706e-46ff-9a4f-2ae687010138")
+	)
+	(wire
+		(pts
 			(xy 251.46 106.68) (xy 261.62 106.68)
 		)
 		(stroke
@@ -6493,6 +6684,36 @@
 			(type default)
 		)
 		(uuid "812d1c36-1101-4f0e-a5d6-713632b1986f")
+	)
+	(wire
+		(pts
+			(xy 38.1 153.67) (xy 49.53 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc51867-a827-44f6-8ff2-2da8da87493a")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9249e7a6-5aeb-4db7-9525-102c5ef05831")
+	)
+	(wire
+		(pts
+			(xy 135.89 125.73) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947c4299-a3db-4f72-a7e5-6d059d118eee")
 	)
 	(wire
 		(pts
@@ -6506,6 +6727,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 163.83) (xy 49.53 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd98577-ff73-41f7-8d3a-6591767f84c4")
+	)
+	(wire
+		(pts
 			(xy 251.46 109.22) (xy 261.62 109.22)
 		)
 		(stroke
@@ -6516,6 +6747,46 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 158.75) (xy 132.08 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50bff8c-ba7f-415b-ad3d-03126d51eaee")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f6ad76-6dd6-40fa-8b64-e7e7883960c2")
+	)
+	(wire
+		(pts
+			(xy 110.49 161.29) (xy 132.08 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77769c4-f85a-45ef-8e42-4aaf4f7d0c6c")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a0d3cb-b564-45db-b286-4e8278b03b92")
+	)
+	(wire
+		(pts
 			(xy 251.46 111.76) (xy 261.62 111.76)
 		)
 		(stroke
@@ -6523,6 +6794,26 @@
 			(type default)
 		)
 		(uuid "c2cfd2a1-0454-4bab-b202-23a24be21677")
+	)
+	(wire
+		(pts
+			(xy 110.49 123.19) (xy 123.19 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45b962a-d538-4416-90fe-343f5f54fa85")
+	)
+	(wire
+		(pts
+			(xy 135.89 123.19) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1934a44-14b1-42ed-9597-5824e0cadc12")
 	)
 	(wire
 		(pts
@@ -6543,6 +6834,105 @@
 			)
 		)
 		(uuid "0104915b-c192-460a-915a-23b925bc4b1d")
+	)
+	(label "SWO{slash}TDO"
+		(at 114.3 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1feda9e0-2f60-4b20-b182-1682fb09ada1")
+	)
+	(label "~{TRST}"
+		(at 114.3 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63566199-c5fb-4fc4-a944-ff11e36d8d21")
+	)
+	(label "TDI"
+		(at 114.3 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89d0489b-6f4f-4e1f-89a2-93b5dde61b53")
+	)
+	(label "SWDIO{slash}TMS"
+		(at 114.3 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c3a86c7-f1f6-46bb-9633-e67a8e9fb80b")
+	)
+	(label "SWCLK{slash}TCK"
+		(at 114.3 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a63af055-2a2c-4720-ace8-0d5d2adc5fda")
+	)
+	(global_label "USB_DP2"
+		(shape bidirectional)
+		(at 38.1 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09ab109b-6a03-47ea-9c30-36f1d7b9a47c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4764 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM2"
+		(shape bidirectional)
+		(at 38.1 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a61c74b-38c8-46ee-861a-53457bf7d79c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.295 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SDMMC1_CMD"
 		(shape bidirectional)
@@ -6633,6 +7023,28 @@
 			)
 		)
 	)
+	(global_label "USB_DM1"
+		(shape bidirectional)
+		(at 38.1 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b774ebaa-3d3f-4c60-b781-04a14690c689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.295 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDMMC1_D3"
 		(shape bidirectional)
 		(at 261.62 111.76 0)
@@ -6713,6 +7125,28 @@
 		(uuid "e1014e4c-4085-47de-958a-dd82c0cc18cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.874 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP1"
+		(shape bidirectional)
+		(at 38.1 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5a30253-303e-438e-bdcb-9feb089f2515")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4764 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +8219,7 @@
 	)
 	(symbol
 		(lib_id "OSD32MP157C-512M-IAA:OSD32MP157C-512M-IAA")
-		(at 99.06 171.45 0)
+		(at 54.61 168.91 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7794,7 +8228,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b2140b9-0cbc-4eb1-a28c-e7f6bd2a5b87")
 		(property "Reference" "U1"
-			(at 124.46 97.79 0)
+			(at 80.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +8236,7 @@
 			)
 		)
 		(property "Value" "OSD32MP157C-512M-IAA"
-			(at 124.46 100.33 0)
+			(at 80.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +8244,7 @@
 			)
 		)
 		(property "Footprint" "OSD32MP157C-512M-IAA:OSD32MP15X-BGA-324"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +8254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7829,7 +8263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +8272,7 @@
 			)
 		)
 		(property "MF" "Octavo Systems LLC"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7848,7 +8282,7 @@
 			)
 		)
 		(property "Description_1" "\nOSD32MP15x Embedded Module Arm® Dual Cortex®-A7, Arm® Cortex®-M4 NEON™ SIMD 650MHz, 209MHz\n"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,7 +8292,7 @@
 			)
 		)
 		(property "Package" "BGA-302 Octavo Systems"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7868,7 +8302,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +8312,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OSD32MP157C-512M-IAA/Octavo+Systems+LLC/view-part/?ref=snap"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +8322,7 @@
 			)
 		)
 		(property "MP" "OSD32MP157C-512M-IAA"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +8332,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4998964&manufacturer=Octavo Systems LLC&part_name=OSD32MP157C-512M-IAA&search_term=osd32mp1"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +8342,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8352,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OSD32MP157C-512M-IAA/Octavo+Systems+LLC/view-part/?ref=eda"
-			(at 99.06 171.45 0)
+			(at 54.61 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,6 +10331,142 @@
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ec3f42cd-4cf8-4535-a092-0d9cee8969c9"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6a9d809-add4-45bf-9ddd-058dce4673fa")
+		(property "Reference" "R8"
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 127 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce94c9f0-cd42-43d9-a410-01943e57b1de")
+		)
+		(pin "2"
+			(uuid "3677dccc-a1f5-47eb-9871-e17c73fb07fb")
+		)
+		(instances
+			(project ""
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ec3f42cd-4cf8-4535-a092-0d9cee8969c9"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25cd74e-f39b-4434-9ebd-cc7cef7d83da")
+		(property "Reference" "R9"
+			(at 127 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 127 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453e98a0-7cff-40dd-880d-e7a084890f9b")
+		)
+		(pin "2"
+			(uuid "a922c53c-6e51-4a11-8b60-b9a85529e91a")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ec3f42cd-4cf8-4535-a092-0d9cee8969c9"
+					(reference "R9")
+					(unit 1)
 				)
 			)
 		)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "e9b29a7c-bbe5-4ab4-acee-985586e1266a")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
 	(text "Linux based scout UAV\nLinuxベースのスカウトUAV"
 		(exclude_from_sim no)

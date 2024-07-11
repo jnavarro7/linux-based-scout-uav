@@ -5,6 +5,446 @@
 	(uuid "7cbf67eb-9fe8-40e1-b639-2fdca6c7962a")
 	(paper "A3")
 	(lib_symbols
+		(symbol "AMG8833:AMG8833"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.176 7.632 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AMG8833"
+				(at -10.1931 -12.7413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AMG8833:XDCR_AMG8833"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Panasonic Electronic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nTemperature Sensor Digital, Infrared (IR) - - 14-SMD Module\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-14 Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/AMG8833/Panasonic+Electronic+Components/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/AMG8833/Panasonic+Electronic+Components/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "AMG8833"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "PANASONIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "AMG8833_0_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 12.7 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "AVDD-PC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "DVDD-PC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "VPP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "AD_SELECT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sensor_Motion:MPU-6050"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -625,9 +1065,45 @@
 			)
 		)
 	)
+	(junction
+		(at 226.06 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b36504a-cee5-41c5-a8ac-62f78e90bbba")
+	)
 	(wire
 		(pts
-			(xy 92.71 148.59) (xy 92.71 161.29)
+			(xy 261.62 135.89) (xy 274.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bd7f17-d3b3-4097-9d20-4c089139d53b")
+	)
+	(wire
+		(pts
+			(xy 226.06 134.62) (xy 226.06 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a93d7b-814c-4f6b-afe1-a8f9a18d9042")
+	)
+	(wire
+		(pts
+			(xy 261.62 133.35) (xy 274.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40342b71-c57b-40e5-be06-d2dc19bb5096")
+	)
+	(wire
+		(pts
+			(xy 95.25 156.21) (xy 95.25 165.1)
 		)
 		(stroke
 			(width 0)
@@ -637,7 +1113,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 123.19) (xy 74.93 123.19)
+			(xy 243.84 130.81) (xy 252.73 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8401f272-88f9-4d08-a057-f5d0ce36557c")
+	)
+	(wire
+		(pts
+			(xy 59.69 130.81) (xy 77.47 130.81)
 		)
 		(stroke
 			(width 0)
@@ -647,13 +1133,85 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 125.73) (xy 74.93 125.73)
+			(xy 260.35 130.81) (xy 274.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8739fa-e09b-4f80-ac3b-246c16401091")
+	)
+	(wire
+		(pts
+			(xy 226.06 125.73) (xy 226.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb087f0-047d-41ae-881b-8d6f0d77e48e")
+	)
+	(wire
+		(pts
+			(xy 302.26 138.43) (xy 306.07 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b827f8fb-7647-43b5-9230-0231538f0d47")
+	)
+	(wire
+		(pts
+			(xy 226.06 120.65) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e0ad6b-08bf-4e2a-969c-f94ae95b5cea")
+	)
+	(wire
+		(pts
+			(xy 274.32 125.73) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68b2b3d-a995-4066-b7e8-b9b4aaf6a1ee")
+	)
+	(wire
+		(pts
+			(xy 306.07 138.43) (xy 306.07 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0dc285b-84e7-41c3-b55e-705654cf22a7")
+	)
+	(wire
+		(pts
+			(xy 59.69 133.35) (xy 77.47 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8580546-6bbd-4725-8cf4-665571ef389f")
+	)
+	(rectangle
+		(start 19.05 92.71)
+		(end 170.18 173.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2069c452-31e0-4fe5-a67c-b682ab5201bd)
 	)
 	(text "Sensors"
 		(exclude_from_sim no)
@@ -666,9 +1224,19 @@
 		)
 		(uuid "87bbe1b0-4109-4eb4-b90b-85fae7bad402")
 	)
+	(text "MPU-6050"
+		(exclude_from_sim no)
+		(at 95.25 97.79 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "fd4ea01b-43bb-47b8-888c-d6389db1e5ab")
+	)
 	(global_label "I2C1_SDA"
 		(shape bidirectional)
-		(at 57.15 123.19 180)
+		(at 59.69 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -678,7 +1246,7 @@
 		)
 		(uuid "a2618265-b828-43e2-b7f4-510373a1e63f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.224 123.19 0)
+			(at 46.764 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,7 +1258,7 @@
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
-		(at 57.15 125.73 180)
+		(at 59.69 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -700,7 +1268,7 @@
 		)
 		(uuid "c4901a73-2a15-437c-a347-60f4f21c0d7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.3958 125.73 0)
+			(at 47.9358 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,8 +1279,212 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 226.06 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "273e4ba6-3a33-457d-be3e-d5de060af079")
+		(property "Reference" "#PWR020"
+			(at 226.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46216706-e3ea-479e-9dd6-313095fec61a")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a9ccabcb-97a3-46cc-a854-1fb2fda7c97b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b27fc8f-47c9-4dfa-9028-e7c40d5476c1")
+		(property "Reference" "R12"
+			(at 256.54 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K DNP"
+			(at 256.54 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 256.54 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 256.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a2ed07-aca4-487a-837c-8b6cd8ba214b")
+		)
+		(pin "2"
+			(uuid "fe9eb882-beb0-4c38-a275-6f28be03940f")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a9ccabcb-97a3-46cc-a854-1fb2fda7c97b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a41d07c-6ba9-4da6-85cf-62e6c8b8d503")
+		(property "Reference" "R10"
+			(at 228.6 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 228.6 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 224.282 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49c5fdde-e1d3-4540-886a-39db2ce78af3")
+		)
+		(pin "2"
+			(uuid "c241398b-3dad-44b7-8a18-58291fa8193f")
+		)
+		(instances
+			(project ""
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a9ccabcb-97a3-46cc-a854-1fb2fda7c97b"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Motion:MPU-6050")
-		(at 92.71 130.81 0)
+		(at 95.25 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -721,7 +1493,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c79cb4a-1926-4a2b-8fb3-595ad62926db")
 		(property "Reference" "U5"
-			(at 94.9041 147.32 0)
+			(at 97.4441 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +1502,7 @@
 			)
 		)
 		(property "Value" "MPU-6050"
-			(at 94.9041 149.86 0)
+			(at 97.4441 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +1511,7 @@
 			)
 		)
 		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
-			(at 92.71 151.13 0)
+			(at 95.25 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -748,7 +1520,7 @@
 			)
 		)
 		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
-			(at 92.71 134.62 0)
+			(at 95.25 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +1529,7 @@
 			)
 		)
 		(property "Description" "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"
-			(at 92.71 130.81 0)
+			(at 95.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,8 +1619,188 @@
 		)
 	)
 	(symbol
+		(lib_id "AMG8833:AMG8833")
+		(at 287.02 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41e9148c-dc30-4cab-8123-4971feab6784")
+		(property "Reference" "U6"
+			(at 288.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMG8833"
+			(at 288.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AMG8833:XDCR_AMG8833"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Panasonic Electronic"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nTemperature Sensor Digital, Infrared (IR) - - 14-SMD Module\n"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-14 Panasonic"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AMG8833/Panasonic+Electronic+Components/view-part/?ref=eda"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AMG8833/Panasonic+Electronic+Components/view-part/?ref=snap"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AMG8833"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "PANASONIC"
+			(at 287.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7e3e7650-c234-4b0d-b12a-166978a17993")
+		)
+		(pin "3"
+			(uuid "a9e8b898-0283-466c-90ee-f112e641bf02")
+		)
+		(pin "9"
+			(uuid "1f4c236c-b9b1-43eb-8e97-7b19a571a085")
+		)
+		(pin "6"
+			(uuid "8725395a-69d2-4350-a8e5-edf5f25a85cc")
+		)
+		(pin "2"
+			(uuid "de635ff2-666c-4c0b-b26f-7c024b60bebb")
+		)
+		(pin "12"
+			(uuid "4a10b1d4-a946-4ebf-9f61-bb92f6bc6371")
+		)
+		(pin "5"
+			(uuid "ac8ddbb0-ff7d-450a-ab66-39b2160ab061")
+		)
+		(pin "4"
+			(uuid "15a4b485-dba9-435b-9b09-3c11d957a747")
+		)
+		(pin "10"
+			(uuid "0c19e28d-5db5-403f-8e54-9ee397a059e5")
+		)
+		(instances
+			(project ""
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a9ccabcb-97a3-46cc-a854-1fb2fda7c97b"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 92.71 161.29 0)
+		(at 95.25 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -857,7 +1809,7 @@
 		(fields_autoplaced yes)
 		(uuid "85be18b3-b0cc-4a43-a0cc-bfe53ad6b098")
 		(property "Reference" "#PWR017"
-			(at 92.71 167.64 0)
+			(at 95.25 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,7 +1818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 166.37 0)
+			(at 95.25 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +1826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 161.29 0)
+			(at 95.25 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,7 +1835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 161.29 0)
+			(at 95.25 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +1844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 161.29 0)
+			(at 95.25 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,6 +1859,142 @@
 			(project ""
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a9ccabcb-97a3-46cc-a854-1fb2fda7c97b"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b30f638f-e62d-447b-9d07-acd5cb5510b1")
+		(property "Reference" "R11"
+			(at 228.6 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K DNP"
+			(at 228.6 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 224.282 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afb2637f-6cc8-4b5d-9ed7-9c0ec7e4bbf3")
+		)
+		(pin "2"
+			(uuid "f105eba8-fd2d-4e5a-a395-6b7d7e187e9b")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a9ccabcb-97a3-46cc-a854-1fb2fda7c97b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 306.07 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed58a24f-90b8-4d1b-9ca5-1f9ad30a1f2c")
+		(property "Reference" "#PWR019"
+			(at 306.07 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e27924c-04cb-4929-a0b5-8525af077a3b")
+		)
+		(instances
+			(project ""
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a9ccabcb-97a3-46cc-a854-1fb2fda7c97b"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
