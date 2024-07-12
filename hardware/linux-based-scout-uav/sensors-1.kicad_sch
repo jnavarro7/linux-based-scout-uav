@@ -1213,6 +1213,28 @@
 		)
 		(uuid 2069c452-31e0-4fe5-a67c-b682ab5201bd)
 	)
+	(rectangle
+		(start 195.58 92.71)
+		(end 346.71 173.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39aa8bd8-1b1d-47b3-b54f-adf82ddc226b)
+	)
+	(text "AMG8833"
+		(exclude_from_sim no)
+		(at 272.542 98.552 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "2e05c14f-d34c-49c1-82a5-57c359f6cf96")
+	)
 	(text "Sensors"
 		(exclude_from_sim no)
 		(at 213.36 32.766 0)
