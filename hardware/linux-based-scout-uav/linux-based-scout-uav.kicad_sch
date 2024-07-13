@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "Linux based scout UAV\nLinuxベースのスカウトUAV"
 		(exclude_from_sim no)
-		(at 152.908 30.988 0)
+		(at 204.978 30.988 0)
 		(effects
 			(font
 				(face "KiCad Font")
