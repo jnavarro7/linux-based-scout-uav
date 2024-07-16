@@ -1066,14 +1066,14 @@
 		)
 	)
 	(junction
-		(at 226.06 125.73)
+		(at 218.44 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b36504a-cee5-41c5-a8ac-62f78e90bbba")
 	)
 	(wire
 		(pts
-			(xy 261.62 135.89) (xy 274.32 135.89)
+			(xy 265.43 152.4) (xy 278.13 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 134.62) (xy 226.06 140.97)
+			(xy 218.44 151.13) (xy 218.44 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 133.35) (xy 274.32 133.35)
+			(xy 265.43 149.86) (xy 278.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 130.81) (xy 252.73 130.81)
+			(xy 247.65 147.32) (xy 256.54 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1133,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 130.81) (xy 274.32 130.81)
+			(xy 264.16 147.32) (xy 278.13 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 125.73) (xy 226.06 127)
+			(xy 218.44 142.24) (xy 218.44 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 138.43) (xy 306.07 138.43)
+			(xy 306.07 154.94) (xy 309.88 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 120.65) (xy 226.06 125.73)
+			(xy 218.44 137.16) (xy 218.44 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 125.73) (xy 226.06 125.73)
+			(xy 278.13 142.24) (xy 218.44 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 138.43) (xy 306.07 146.05)
+			(xy 309.88 154.94) (xy 309.88 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1300,9 +1300,75 @@
 			)
 		)
 	)
+	(global_label "I2C1_SDA"
+		(shape bidirectional)
+		(at 265.43 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e267647e-520d-4017-bc84-17c09d186f98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.504 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMG833_INT"
+		(shape output)
+		(at 247.65 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea8af853-0a59-42ea-9a7c-f682921c143f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.3558 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 265.43 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbb48c22-02c7-4c81-a079-22c49ff20db8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.6758 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 140.97 0)
+		(at 218.44 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1311,7 +1377,7 @@
 		(fields_autoplaced yes)
 		(uuid "273e4ba6-3a33-457d-be3e-d5de060af079")
 		(property "Reference" "#PWR020"
-			(at 226.06 147.32 0)
+			(at 218.44 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1386,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 146.05 0)
+			(at 218.44 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 140.97 0)
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 140.97 0)
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 140.97 0)
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1434,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 130.81 90)
+		(at 260.35 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1377,7 +1443,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b27fc8f-47c9-4dfa-9028-e7c40d5476c1")
 		(property "Reference" "R12"
-			(at 256.54 124.46 90)
+			(at 260.35 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1451,7 @@
 			)
 		)
 		(property "Value" "10K DNP"
-			(at 256.54 127 90)
+			(at 260.35 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1459,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 256.54 132.588 90)
+			(at 260.35 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 130.81 0)
+			(at 260.35 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1477,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 130.81 0)
+			(at 260.35 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1502,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 116.84 0)
+		(at 218.44 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1445,7 +1511,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a41d07c-6ba9-4da6-85cf-62e6c8b8d503")
 		(property "Reference" "R10"
-			(at 228.6 115.5699 0)
+			(at 220.98 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1520,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 228.6 118.1099 0)
+			(at 220.98 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1529,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 224.282 116.84 90)
+			(at 216.662 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 116.84 0)
+			(at 218.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +1547,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 116.84 0)
+			(at 218.44 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1708,7 @@
 	)
 	(symbol
 		(lib_id "AMG8833:AMG8833")
-		(at 287.02 130.81 0)
+		(at 290.83 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1651,7 +1717,7 @@
 		(fields_autoplaced yes)
 		(uuid "41e9148c-dc30-4cab-8123-4971feab6784")
 		(property "Reference" "U6"
-			(at 288.29 118.11 0)
+			(at 292.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1725,7 @@
 			)
 		)
 		(property "Value" "AMG8833"
-			(at 288.29 120.65 0)
+			(at 292.1 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1733,7 @@
 			)
 		)
 		(property "Footprint" "AMG8833:XDCR_AMG8833"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1761,7 @@
 			)
 		)
 		(property "MF" "Panasonic Electronic"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1771,7 @@
 			)
 		)
 		(property "Description_1" "\nTemperature Sensor Digital, Infrared (IR) - - 14-SMD Module\n"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1781,7 @@
 			)
 		)
 		(property "Package" "SMD-14 Panasonic"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1791,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1801,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AMG8833/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1811,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AMG8833/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1821,7 @@
 			)
 		)
 		(property "MP" "AMG8833"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1831,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1841,7 @@
 			)
 		)
 		(property "MANUFACTURER" "PANASONIC"
-			(at 287.02 130.81 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1954,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 130.81 0)
+		(at 218.44 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1897,7 +1963,7 @@
 		(fields_autoplaced yes)
 		(uuid "b30f638f-e62d-447b-9d07-acd5cb5510b1")
 		(property "Reference" "R11"
-			(at 228.6 129.5399 0)
+			(at 220.98 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1972,7 @@
 			)
 		)
 		(property "Value" "10K DNP"
-			(at 228.6 132.0799 0)
+			(at 220.98 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1981,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 224.282 130.81 90)
+			(at 216.662 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 130.81 0)
+			(at 218.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1999,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 226.06 130.81 0)
+			(at 218.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +2024,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.07 146.05 0)
+		(at 309.88 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1967,7 +2033,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed58a24f-90b8-4d1b-9ca5-1f9ad30a1f2c")
 		(property "Reference" "#PWR019"
-			(at 306.07 152.4 0)
+			(at 309.88 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.07 151.13 0)
+			(at 309.88 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +2050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 146.05 0)
+			(at 309.88 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +2059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 146.05 0)
+			(at 309.88 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 146.05 0)
+			(at 309.88 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
