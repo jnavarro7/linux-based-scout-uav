@@ -10782,6 +10782,28 @@
 			)
 		)
 	)
+	(global_label "~{RESET}"
+		(shape passive)
+		(at 40.64 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff098c3e-8b2b-4601-8f8e-388a2208bc56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.021 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "B3U-1000P:B3U-1000P")
 		(at 364.49 233.68 0)
