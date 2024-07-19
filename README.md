@@ -56,11 +56,14 @@ The SiP has an embedded ARM Cortex M4 sub-system which can be used by creating f
 
 Started working on the schematic capture, schematic in PDF format will be added as it is updated. 
 
-## Board layout 
+## Board placement/layout 
 
 Started work on board by trying board shapes and importing the DXF files. Already placed the initial components available, will update as needed. 
 
-![](/doc/board.jpg.jpg)
+![](/doc/top.jpg)
+
+![](/doc/bottom.jpg)
+
 
 ## EDA
 
