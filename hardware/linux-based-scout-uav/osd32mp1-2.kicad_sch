@@ -7598,7 +7598,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 215.9) (xy 116.84 215.9)
+			(xy 93.98 233.68) (xy 116.84 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7618,7 +7618,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 220.98) (xy 116.84 220.98)
+			(xy 93.98 238.76) (xy 116.84 238.76)
 		)
 		(stroke
 			(width 0)
@@ -7738,7 +7738,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 215.9) (xy 60.96 228.6)
+			(xy 60.96 233.68) (xy 60.96 246.38)
 		)
 		(stroke
 			(width 0)
@@ -7748,7 +7748,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 213.36) (xy 116.84 213.36)
+			(xy 93.98 231.14) (xy 116.84 231.14)
 		)
 		(stroke
 			(width 0)
@@ -7818,7 +7818,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 210.82) (xy 60.96 210.82)
+			(xy 68.58 228.6) (xy 60.96 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7858,7 +7858,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 210.82) (xy 60.96 201.93)
+			(xy 60.96 228.6) (xy 60.96 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7878,7 +7878,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 213.36) (xy 68.58 213.36)
+			(xy 40.64 231.14) (xy 68.58 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8008,7 +8008,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 218.44) (xy 68.58 218.44)
+			(xy 40.64 236.22) (xy 68.58 236.22)
 		)
 		(stroke
 			(width 0)
@@ -8018,7 +8018,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 210.82) (xy 116.84 210.82)
+			(xy 93.98 228.6) (xy 116.84 228.6)
 		)
 		(stroke
 			(width 0)
@@ -8038,7 +8038,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 215.9) (xy 60.96 215.9)
+			(xy 68.58 233.68) (xy 60.96 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8066,6 +8066,30 @@
 		)
 		(uuid "f8aa08e7-7d9d-4ea1-a3db-911c78218456")
 	)
+	(rectangle
+		(start 303.53 200.66)
+		(end 400.05 247.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66217138-9180-4ab0-8862-f00f51ed89b8)
+	)
+	(rectangle
+		(start 35.56 204.47)
+		(end 128.27 255.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8437b8e-d072-4532-997a-a62f8988ffbe)
+	)
 	(text "OSD32MP1"
 		(exclude_from_sim no)
 		(at 204.47 23.368 0)
@@ -8076,8 +8100,28 @@
 		)
 		(uuid "0104915b-c192-460a-915a-23b925bc4b1d")
 	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 80.772 208.28 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7f658314-614a-420f-89f5-b89303833caa")
+	)
+	(text "Do not connect"
+		(exclude_from_sim no)
+		(at 353.314 204.216 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b97dd7e9-b76d-4d53-9097-94055ba775c7")
+	)
 	(label "TDI"
-		(at 104.14 215.9 180)
+		(at 104.14 233.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8099,7 +8143,7 @@
 		(uuid "1feda9e0-2f60-4b20-b182-1682fb09ada1")
 	)
 	(label "SWDIO{slash}TMS"
-		(at 53.34 213.36 180)
+		(at 53.34 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8110,7 +8154,7 @@
 		(uuid "2f6012a3-4117-4e36-b5e6-69e89e655468")
 	)
 	(label "~{TRST}"
-		(at 105.41 213.36 180)
+		(at 105.41 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8132,7 +8176,7 @@
 		(uuid "63566199-c5fb-4fc4-a944-ff11e36d8d21")
 	)
 	(label "SWCLK{slash}TCK"
-		(at 53.34 218.44 180)
+		(at 53.34 236.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8176,7 +8220,7 @@
 		(uuid "a63af055-2a2c-4720-ace8-0d5d2adc5fda")
 	)
 	(label "SWO{slash}TDO"
-		(at 110.49 220.98 180)
+		(at 110.49 238.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8187,7 +8231,7 @@
 		(uuid "abe60944-d300-479c-8e1e-333a04777339")
 	)
 	(label "~{RESET}"
-		(at 101.6 210.82 0)
+		(at 101.6 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8376,7 +8420,7 @@
 	)
 	(global_label "~{RESET}"
 		(shape passive)
-		(at 116.84 210.82 0)
+		(at 116.84 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8386,7 +8430,7 @@
 		)
 		(uuid "c9f667ae-10fe-4290-9b5d-2b92a1b57311")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.459 210.82 0)
+			(at 124.459 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,7 +8531,7 @@
 	)
 	(symbol
 		(lib_id "TC2050-IDC-NL:TC2050-IDC-NL")
-		(at 81.28 215.9 0)
+		(at 81.28 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8496,7 +8540,7 @@
 		(fields_autoplaced yes)
 		(uuid "244933c6-2370-45d7-8e21-be50b7c14865")
 		(property "Reference" "J3"
-			(at 81.28 203.2 0)
+			(at 81.28 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,7 +8548,7 @@
 			)
 		)
 		(property "Value" "TC2050-IDC-NL"
-			(at 81.28 205.74 0)
+			(at 81.28 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8556,7 @@
 			)
 		)
 		(property "Footprint" "TC2050-IDC-NL:TAG-CONNECT_TC2050-IDC-NL"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8584,7 @@
 			)
 		)
 		(property "MF" "Tag-Connect LLC"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8594,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +8604,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8614,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8624,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TC2050-IDC-NL/Tag-Connect+LLC/view-part/?ref=eda"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8634,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8644,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8610,7 +8654,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TC2050-IDC-NL/Tag-Connect+LLC/view-part/?ref=snap"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8664,7 @@
 			)
 		)
 		(property "MP" "TC2050-IDC-NL"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8674,7 @@
 			)
 		)
 		(property "Description_1" "\nMSP-FET430 Flash Emulation Tool Plug-Of-Nails™ Adapter Cable\n"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8684,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8694,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Tag-Connect"
-			(at 81.28 215.9 0)
+			(at 81.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8744,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 60.96 201.93 0)
+		(at 60.96 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8709,7 +8753,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ca2c7d7-2f80-4a17-ad78-8597d277b143")
 		(property "Reference" "#PWR021"
-			(at 60.96 205.74 0)
+			(at 60.96 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8762,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 60.96 196.85 0)
+			(at 60.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 201.93 0)
+			(at 60.96 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 201.93 0)
+			(at 60.96 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +8788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 60.96 201.93 0)
+			(at 60.96 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +8810,7 @@
 	)
 	(symbol
 		(lib_id "OSD32MP157C-512M-IAA:OSD32MP157C-512M-IAA")
-		(at 177.8 243.84 0)
+		(at 320.04 246.38 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8775,7 +8819,7 @@
 		(fields_autoplaced yes)
 		(uuid "337c3a52-2de3-460c-b8fb-74e38e277452")
 		(property "Reference" "U1"
-			(at 229.87 226.0599 0)
+			(at 372.11 228.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8828,7 @@
 			)
 		)
 		(property "Value" "OSD32MP157C-512M-IAA"
-			(at 229.87 228.5999 0)
+			(at 372.11 231.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8837,7 @@
 			)
 		)
 		(property "Footprint" "OSD32MP157C-512M-IAA:OSD32MP15X-BGA-324"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8865,7 @@
 			)
 		)
 		(property "MF" "Octavo Systems LLC"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,7 +8875,7 @@
 			)
 		)
 		(property "Description_1" "\nOSD32MP15x Embedded Module Arm® Dual Cortex®-A7, Arm® Cortex®-M4 NEON™ SIMD 650MHz, 209MHz\n"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,7 +8885,7 @@
 			)
 		)
 		(property "Package" "BGA-302 Octavo Systems"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8851,7 +8895,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +8905,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OSD32MP157C-512M-IAA/Octavo+Systems+LLC/view-part/?ref=snap"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +8915,7 @@
 			)
 		)
 		(property "MP" "OSD32MP157C-512M-IAA"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,7 +8925,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4998964&manufacturer=Octavo Systems LLC&part_name=OSD32MP157C-512M-IAA&search_term=osd32mp1"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8935,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +8945,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/OSD32MP157C-512M-IAA/Octavo+Systems+LLC/view-part/?ref=eda"
-			(at 177.8 243.84 0)
+			(at 320.04 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +11119,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 228.6 0)
+		(at 60.96 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11084,7 +11128,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e799d8a-0697-4601-8d9e-76167355dadd")
 		(property "Reference" "#PWR022"
-			(at 60.96 234.95 0)
+			(at 60.96 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +11137,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 233.68 0)
+			(at 60.96 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +11145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 228.6 0)
+			(at 60.96 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +11154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 228.6 0)
+			(at 60.96 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11119,7 +11163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 228.6 0)
+			(at 60.96 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,7 +12327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "12pF"
 			(at 298.45 143.5099 0)
 			(effects
 				(font
@@ -12489,7 +12533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "12pF"
 			(at 330.2 143.5099 0)
 			(effects
 				(font
