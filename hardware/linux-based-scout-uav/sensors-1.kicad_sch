@@ -1235,9 +1235,9 @@
 		)
 		(uuid "2e05c14f-d34c-49c1-82a5-57c359f6cf96")
 	)
-	(text "Sensors"
+	(text "Sensors\nセンサー"
 		(exclude_from_sim no)
-		(at 213.36 32.766 0)
+		(at 211.582 29.464 0)
 		(effects
 			(font
 				(face "KiCad Font")
