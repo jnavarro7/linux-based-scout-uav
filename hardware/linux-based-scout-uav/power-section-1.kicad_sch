@@ -1817,10 +1817,22 @@
 		)
 	)
 	(junction
+		(at 143.51 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f3f31d4-fe62-4225-8d49-c8f5c7ea4305")
+	)
+	(junction
 		(at 200.66 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e04bd82-9988-4d4b-b7f9-08286dff4872")
+	)
+	(junction
+		(at 120.65 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cf280b8-5774-4826-97da-8a883994c0c9")
 	)
 	(junction
 		(at 212.09 44.45)
@@ -1968,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 163.83) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d5210e-40c8-44ec-b24e-69dfbda99459")
+	)
+	(wire
+		(pts
 			(xy 99.06 55.88) (xy 46.99 55.88)
 		)
 		(stroke
@@ -1985,6 +2007,16 @@
 			(type default)
 		)
 		(uuid "3e6eca77-3439-4d96-8efb-35df6ade0493")
+	)
+	(wire
+		(pts
+			(xy 130.81 163.83) (xy 143.51 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8ebe41-7060-46e2-8861-c8d5818bb728")
 	)
 	(wire
 		(pts
@@ -2008,6 +2040,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 77.47) (xy 170.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f17456-9af1-4376-ac52-cc867d65c528")
+	)
+	(wire
+		(pts
 			(xy 50.8 163.83) (xy 50.8 168.91)
 		)
 		(stroke
@@ -2015,6 +2057,16 @@
 			(type default)
 		)
 		(uuid "5692edde-80fd-4c1f-8569-13ffba0411c5")
+	)
+	(wire
+		(pts
+			(xy 120.65 158.75) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616cbe50-f3fb-4b70-9492-236b50144402")
 	)
 	(wire
 		(pts
@@ -2055,6 +2107,16 @@
 			(type default)
 		)
 		(uuid "700b6fe9-3686-40e8-9fd2-19172c879959")
+	)
+	(wire
+		(pts
+			(xy 143.51 144.78) (xy 143.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b6c362-4173-4c3a-b270-eea050256fe8")
 	)
 	(wire
 		(pts
@@ -2118,6 +2180,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 176.53) (xy 143.51 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b403d86-a0b0-49ca-b59e-0e03115d09bc")
+	)
+	(wire
+		(pts
 			(xy 38.1 163.83) (xy 50.8 163.83)
 		)
 		(stroke
@@ -2168,6 +2240,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 158.75) (xy 143.51 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad09a500-790b-4652-83d5-6ac349e5e79e")
+	)
+	(wire
+		(pts
 			(xy 148.59 85.09) (xy 170.18 85.09)
 		)
 		(stroke
@@ -2198,6 +2280,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 176.53) (xy 120.65 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4531977-15f9-402c-aa4f-4d527036a679")
+	)
+	(wire
+		(pts
 			(xy 212.09 31.75) (xy 200.66 31.75)
 		)
 		(stroke
@@ -2208,6 +2300,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 80.01) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc1796ec-3cd8-470a-8804-e3317137cc5c")
+	)
+	(wire
+		(pts
 			(xy 46.99 55.88) (xy 46.99 53.34)
 		)
 		(stroke
@@ -2215,6 +2317,16 @@
 			(type default)
 		)
 		(uuid "c9b2d238-1803-419f-9c43-34d31115be9c")
+	)
+	(wire
+		(pts
+			(xy 120.65 144.78) (xy 120.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba2c481-7928-4577-b97a-2412925ea19e")
 	)
 	(wire
 		(pts
@@ -2265,6 +2377,26 @@
 			(type default)
 		)
 		(uuid "dcf66d39-3854-48fb-9188-d17b0e689fa6")
+	)
+	(wire
+		(pts
+			(xy 143.51 163.83) (xy 143.51 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de694a98-41cc-4472-b18f-2d11e6dc388b")
+	)
+	(wire
+		(pts
+			(xy 120.65 163.83) (xy 120.65 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d82c4e-cba2-456b-b633-e5d0e7b9549d")
 	)
 	(wire
 		(pts
@@ -2326,6 +2458,50 @@
 		)
 		(uuid "fd4fae5d-4d99-436b-a80e-2fe8553279d2")
 	)
+	(rectangle
+		(start 29.21 130.81)
+		(end 96.52 209.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0721bc92-4a02-45b0-a7f2-37165704d71f)
+	)
+	(rectangle
+		(start 99.06 130.81)
+		(end 166.37 209.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bc7c9938-9def-4cd3-8ac5-6ab13d97fcd2)
+	)
+	(text "Resistor divider to set the operating current \nrequested from the power adapter\n電源アダプタから要求される動作電流を設定するための抵抗分圧器"
+		(exclude_from_sim no)
+		(at 132.334 202.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "636af557-065a-41b6-915e-e13b798fc508")
+	)
+	(text "CC1/CC2 pull-up/down resistor network\nCC1/CC2プルアップ/ダウン抵抗ネットワーク"
+		(exclude_from_sim no)
+		(at 61.468 201.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a877064-49e4-4127-8882-cf736e3fe69c")
+	)
 	(label "VBUS_MIN"
 		(at 153.67 64.77 0)
 		(fields_autoplaced yes)
@@ -2336,6 +2512,17 @@
 			(justify left bottom)
 		)
 		(uuid "0ad42696-5cf9-4a76-973c-4ca1161dd67a")
+	)
+	(label "ISNK_FINE"
+		(at 152.4 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b0fa962-7556-40e4-b973-6cdb916ff31a")
 	)
 	(label "VBUS_MAX"
 		(at 40.64 163.83 0)
@@ -2348,6 +2535,28 @@
 		)
 		(uuid "2b3b713b-ce29-4026-abe4-2fd8dcf35bbd")
 	)
+	(label "ISNK_COARSE"
+		(at 152.4 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31a5fbf7-acaf-431b-bc7a-5e4768035a7f")
+	)
+	(label "ISNK_COARSE"
+		(at 107.95 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65abfc7e-f81a-4ca6-8805-978e06ab6775")
+	)
 	(label "CC2"
 		(at 156.21 87.63 0)
 		(fields_autoplaced yes)
@@ -2358,6 +2567,17 @@
 			(justify left bottom)
 		)
 		(uuid "6c5bd9c3-bf33-4861-bcb8-e176e1d80d54")
+	)
+	(label "ISNK_FINE"
+		(at 132.08 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72b79dc2-f81f-4466-bfb8-8e56731f6375")
 	)
 	(label " CC1"
 		(at 154.94 85.09 0)
@@ -2614,6 +2834,72 @@
 			(project ""
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0da3baef-7026-42c0-95cb-12854c85d5db")
+		(property "Reference" "#PWR039"
+			(at 143.51 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c618768-d654-47bb-a1e5-c075e28ec12d")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3120,7 +3406,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMP3013SFV")
-		(at 76.2 31.75 0)
+		(at 73.66 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3129,25 +3415,23 @@
 		(fields_autoplaced yes)
 		(uuid "3b626037-2d03-44b1-bfc3-bf10161110f1")
 		(property "Reference" "Q1"
-			(at 82.55 30.4799 0)
+			(at 73.66 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "DMP3013SFV"
-			(at 82.55 33.0199 0)
+			(at 73.66 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
-			(at 81.28 33.655 0)
+			(at 75.565 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
-			(at 81.28 35.56 0)
+			(at 77.47 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3452,7 @@
 			)
 		)
 		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
-			(at 76.2 31.75 0)
+			(at 73.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,6 +3823,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 143.51 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77b0fa4d-7277-44d1-b377-2268e6b892fa")
+		(property "Reference" "R24"
+			(at 146.05 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 146.05 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22941b7b-4c8a-4c14-8637-b09f1ee42cac")
+		)
+		(pin "2"
+			(uuid "9f70fb1c-1bae-4903-82a2-c75ac4b13c9b")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7beb4124-6593-4020-a471-880abe5da22e")
+		(property "Reference" "R23"
+			(at 123.19 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 123.19 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.872 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c720bcde-d67e-4b7f-9f15-ba61b330287d")
+		)
+		(pin "2"
+			(uuid "a1c1645a-1226-4314-9551-e64452ccda60")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 38.1 0)
 		(unit 1)
@@ -3745,8 +4169,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 120.65 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3888512-08b3-4552-b125-4ce9f3256d04")
+		(property "Reference" "R22"
+			(at 123.19 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 123.19 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.872 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "775d8c39-ac1c-4bc7-9f12-d9ae8edc8fd7")
+		)
+		(pin "2"
+			(uuid "43dfcbc4-4ec4-4426-a83f-3ce8bc78171d")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:DMP3013SFV")
-		(at 109.22 31.75 0)
+		(at 110.49 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3755,25 +4249,23 @@
 		(fields_autoplaced yes)
 		(uuid "bf9b6b20-b09d-4e62-9abf-01f17213794c")
 		(property "Reference" "Q2"
-			(at 115.57 30.4799 0)
+			(at 110.49 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "DMP3013SFV"
-			(at 115.57 33.0199 0)
+			(at 110.49 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
-			(at 114.3 33.655 0)
+			(at 112.395 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +4276,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
-			(at 114.3 35.56 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +4286,7 @@
 			)
 		)
 		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
-			(at 109.22 31.75 0)
+			(at 110.49 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,6 +4459,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 143.51 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5012395-9156-4878-bf70-0c259639b366")
+		(property "Reference" "R25"
+			(at 146.05 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DNP"
+			(at 146.05 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c8859a7-2678-4cb0-89a3-613749b979fb")
+		)
+		(pin "2"
+			(uuid "2ab9810e-f88f-4e52-9aa6-d2c95d025c35")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e625ac9e-8972-49df-b895-381f3cf04d56")
+		(property "Reference" "#PWR037"
+			(at 120.65 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53bc8c48-741e-4bb1-9436-37c340890f1f")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 50.8 144.78 0)
 		(unit 1)
@@ -4027,6 +4655,138 @@
 			(project "linux-based-scout-uav"
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 120.65 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f25cb68f-66ee-403a-b4c0-76d63123885f")
+		(property "Reference" "#PWR036"
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDIO_3V3"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b509f288-1f95-4cf7-8244-d5f07aef612f")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 143.51 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f68e5846-b633-4e41-a856-7572289d23a7")
+		(property "Reference" "#PWR038"
+			(at 143.51 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDDIO_3V3"
+			(at 143.51 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 143.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "776b6e2b-446a-42a5-95af-0015d495b154")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
