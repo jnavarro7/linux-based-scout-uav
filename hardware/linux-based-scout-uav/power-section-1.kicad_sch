@@ -1910,6 +1910,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 73.66) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103a842e-600e-4259-9f9a-f0cc44c22ed6")
+	)
+	(wire
+		(pts
 			(xy 73.66 158.75) (xy 73.66 163.83)
 		)
 		(stroke
@@ -2000,6 +2010,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 97.79) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a11e7ce-3b52-4aca-95e1-836bcb206718")
+	)
+	(wire
+		(pts
 			(xy 60.96 163.83) (xy 73.66 163.83)
 		)
 		(stroke
@@ -2007,6 +2027,16 @@
 			(type default)
 		)
 		(uuid "3e6eca77-3439-4d96-8efb-35df6ade0493")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450bbdd9-2fe3-4708-92fa-e65e1198c631")
 	)
 	(wire
 		(pts
@@ -2130,6 +2160,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 76.2) (xy 55.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766c1463-2629-45c7-9deb-91cdf40b91b8")
+	)
+	(wire
+		(pts
 			(xy 55.88 66.04) (xy 46.99 66.04)
 		)
 		(stroke
@@ -2167,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "88232d3c-7e75-4379-b776-aa27db75de4b")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cb36b6-c09d-42da-a8c5-b7519b13ec43")
 	)
 	(wire
 		(pts
@@ -2633,6 +2683,94 @@
 			(justify left bottom)
 		)
 		(uuid "f54392ac-457c-48bd-8760-5bc1503a7bb5")
+	)
+	(global_label "USB_DM1"
+		(shape bidirectional)
+		(at 36.83 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06a70d3a-5b5c-4b11-9a03-2aeef02047d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.025 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP1"
+		(shape bidirectional)
+		(at 36.83 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8af09ab9-8dd5-4148-87c1-6b4952c73a2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.2064 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP2"
+		(shape bidirectional)
+		(at 114.3 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d83694fe-5cd6-4a5c-b23e-a8c7ca4704ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.9236 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM2"
+		(shape bidirectional)
+		(at 114.3 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f062055c-a923-4f59-bdbb-36d5e5d1d826")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.105 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3619,6 +3757,72 @@
 			(project ""
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5df84266-f4e5-49e2-8500-7ca7fcd19557")
+		(property "Reference" "#PWR040"
+			(at 187.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d524e558-95cc-4f52-844a-53fb22748b22")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
