@@ -6556,6 +6556,16 @@
 		)
 		(uuid "2c22e913-de34-463b-9604-ef53a7b4d9ec")
 	)
+	(wire
+		(pts
+			(xy 67.31 153.67) (xy 90.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471589fe-bb5c-4fc2-ada7-42f979e2b770")
+	)
 	(bus
 		(pts
 			(xy 46.99 257.81) (xy 46.99 259.08)
@@ -6675,6 +6685,16 @@
 			(type default)
 		)
 		(uuid "a444d97b-216a-46d8-9b93-60a1515ca51e")
+	)
+	(wire
+		(pts
+			(xy 67.31 49.53) (xy 90.17 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b747686d-ff94-4448-8866-4a67205a4fef")
 	)
 	(bus
 		(pts
@@ -6854,6 +6874,50 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "MMC2_CMD"
+		(shape input)
+		(at 67.31 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5634659e-20c2-475d-af31-061399ebe54a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.9835 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_CLK"
+		(shape input)
+		(at 67.31 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77ff033e-e6f0-4d1c-b084-1c31378bb06a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4068 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
 		)
 	)
