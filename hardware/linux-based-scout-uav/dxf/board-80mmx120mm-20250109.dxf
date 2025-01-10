@@ -1,0 +1,380 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$ANGDIR
+  70
+0
+  9
+$CECOLOR
+  62
+256
+  9
+$CELTYPE
+  6
+BYLAYER
+  9
+$EXTMIN
+  10
+0.0
+  20
+0.0
+  9
+$EXTMAX
+  10
+3.1496
+  20
+4.7244
+  9
+$FILLMODE
+  70
+1
+  9
+$MIRRTEXT
+  70
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+  70
+23
+  0
+LAYER
+  2
+Board_Outline
+  70
+64
+  62
+21
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+Board_Outline
+  6
+CONTINUOUS
+  66
+1
+  70
+0
+  40
+0.0047
+  41
+0.0047
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.1181
+  20
+0.0
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.0315
+  20
+0.0
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.0621
+  20
+0.004
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.0906
+  20
+0.0158
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.115
+  20
+0.0346
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.1338
+  20
+0.0591
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.1456
+  20
+0.0875
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.1496
+  20
+0.1181
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.1496
+  20
+4.6063
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.1456
+  20
+4.6369
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.1338
+  20
+4.6654
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.115
+  20
+4.6898
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.0906
+  20
+4.7086
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.0621
+  20
+4.7204
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+3.0315
+  20
+4.7244
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.1181
+  20
+4.7244
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0875
+  20
+4.7204
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0591
+  20
+4.7086
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0346
+  20
+4.6898
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0158
+  20
+4.6654
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.004
+  20
+4.6369
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0
+  20
+4.6063
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0
+  20
+0.1181
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.004
+  20
+0.0875
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0158
+  20
+0.0591
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0346
+  20
+0.0346
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0591
+  20
+0.0158
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.0875
+  20
+0.004
+  42
+0
+  0
+VERTEX
+  8
+Board_Outline
+  10
+0.1181
+  20
+0.0
+  42
+0
+  0
+SEQEND
+  0
+ENDSEC
+  0
+EOF
