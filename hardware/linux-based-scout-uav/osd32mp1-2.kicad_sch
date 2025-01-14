@@ -8902,7 +8902,7 @@
 		)
 		(uuid "fb156c6f-59ea-4ec6-a7ac-aecd5bbdb0dd")
 	)
-	(global_label "USB_DP2"
+	(global_label "USB_2_DP"
 		(shape bidirectional)
 		(at 38.1 163.83 180)
 		(fields_autoplaced yes)
@@ -8914,7 +8914,7 @@
 		)
 		(uuid "09ab109b-6a03-47ea-9c30-36f1d7b9a47c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4764 163.83 0)
+			(at 24.5088 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +8924,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM2"
+	(global_label "USB_2_DN"
 		(shape bidirectional)
 		(at 38.1 161.29 180)
 		(fields_autoplaced yes)
@@ -8936,7 +8936,7 @@
 		)
 		(uuid "2a61c74b-38c8-46ee-861a-53457bf7d79c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.295 161.29 0)
+			(at 24.4483 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +9057,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM1"
+	(global_label "USB_DN"
 		(shape bidirectional)
 		(at 38.1 151.13 180)
 		(fields_autoplaced yes)
@@ -9069,7 +9069,7 @@
 		)
 		(uuid "b774ebaa-3d3f-4c60-b781-04a14690c689")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.295 151.13 0)
+			(at 26.6254 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9190,7 +9190,7 @@
 			)
 		)
 	)
-	(global_label "USB_DP1"
+	(global_label "USB_DP"
 		(shape bidirectional)
 		(at 38.1 153.67 180)
 		(fields_autoplaced yes)
@@ -9202,7 +9202,7 @@
 		)
 		(uuid "e5a30253-303e-438e-bdcb-9feb089f2515")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4764 153.67 0)
+			(at 26.6859 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

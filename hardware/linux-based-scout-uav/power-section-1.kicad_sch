@@ -2030,16 +2030,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 73.66) (xy 114.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450bbdd9-2fe3-4708-92fa-e65e1198c631")
-	)
-	(wire
-		(pts
 			(xy 130.81 163.83) (xy 143.51 163.83)
 		)
 		(stroke
@@ -2207,16 +2197,6 @@
 			(type default)
 		)
 		(uuid "88232d3c-7e75-4379-b776-aa27db75de4b")
-	)
-	(wire
-		(pts
-			(xy 91.44 76.2) (xy 114.3 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88cb36b6-c09d-42da-a8c5-b7519b13ec43")
 	)
 	(wire
 		(pts
@@ -2684,7 +2664,7 @@
 		)
 		(uuid "f54392ac-457c-48bd-8760-5bc1503a7bb5")
 	)
-	(global_label "USB_DM1"
+	(global_label "USB_DM"
 		(shape bidirectional)
 		(at 36.83 76.2 180)
 		(fields_autoplaced yes)
@@ -2696,7 +2676,7 @@
 		)
 		(uuid "06a70d3a-5b5c-4b11-9a03-2aeef02047d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.025 76.2 0)
+			(at 25.2345 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2686,7 @@
 			)
 		)
 	)
-	(global_label "USB_DP1"
+	(global_label "USB_DP"
 		(shape bidirectional)
 		(at 36.83 73.66 180)
 		(fields_autoplaced yes)
@@ -2718,56 +2698,12 @@
 		)
 		(uuid "8af09ab9-8dd5-4148-87c1-6b4952c73a2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.2064 73.66 0)
+			(at 25.4159 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DP2"
-		(shape bidirectional)
-		(at 114.3 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d83694fe-5cd6-4a5c-b23e-a8c7ca4704ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9236 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DM2"
-		(shape bidirectional)
-		(at 114.3 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f062055c-a923-4f59-bdbb-36d5e5d1d826")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.105 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

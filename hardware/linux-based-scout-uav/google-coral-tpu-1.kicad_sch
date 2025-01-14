@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "df6ebdaa-23f6-4d06-ae29-791652842ee7")
+	(uuid "7a41e598-38b6-45e4-9d48-99faf5ccd6b5")
 	(paper "A3")
 	(lib_symbols
 		(symbol "G313-06329-00:G313-06329-00"
@@ -2451,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 142.24) (xy 180.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c55868-50de-4ff3-8a53-aa3c50895b06")
+	)
+	(wire
+		(pts
 			(xy 236.22 160.02) (xy 236.22 149.86)
 		)
 		(stroke
@@ -2468,6 +2478,60 @@
 			(type default)
 		)
 		(uuid "9dcdb4c1-5efd-4cb7-a3c9-4687b1760bcc")
+	)
+	(wire
+		(pts
+			(xy 168.91 139.7) (xy 180.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c3fc00-6d4c-495b-80ec-9804c05b56bb")
+	)
+	(global_label "USB_2_DN"
+		(shape bidirectional)
+		(at 168.91 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29baeeb9-ec47-4f51-8a49-dfa33f121ed7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.2583 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_2_DP"
+		(shape bidirectional)
+		(at 168.91 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0eb9a11-5b78-410a-9baf-e86b531852b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.3188 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "G313-06329-00:G313-06329-00")
