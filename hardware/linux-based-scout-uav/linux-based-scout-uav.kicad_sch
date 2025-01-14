@@ -95,6 +95,44 @@
 		)
 	)
 	(sheet
+		(at 25.4 152.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72d4d9dd-9b1a-441e-8a2c-19250d02c386")
+		(property "Sheetname" "google-tpu-coral-1"
+			(at 25.4 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "google-coral-tpu-1.kicad_sch"
+			(at 25.4 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 99.06)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)

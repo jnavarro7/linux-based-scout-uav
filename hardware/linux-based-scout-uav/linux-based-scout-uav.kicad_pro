@@ -631,6 +631,10 @@
     [
       "a9ccabcb-97a3-46cc-a854-1fb2fda7c97b",
       "sensors-1"
+    ],
+    [
+      "72d4d9dd-9b1a-441e-8a2c-19250d02c386",
+      "google-tpu-coral-1"
     ]
   ],
   "text_variables": {}
