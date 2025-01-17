@@ -3486,6 +3486,16 @@
 		)
 		(uuid "4acf5939-04df-4497-be97-448e3138d7e5")
 	)
+	(text "Google Coral Edge TPU"
+		(exclude_from_sim no)
+		(at 253.746 66.04 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "c92f53ae-7d2b-41d5-a74b-9857292e8f7a")
+	)
 	(text "Google Coral edge tensor processing unit\nGoogle Coral エッジテンソル処理ユニット"
 		(exclude_from_sim no)
 		(at 211.074 27.178 0)
