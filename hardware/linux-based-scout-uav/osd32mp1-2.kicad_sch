@@ -8608,7 +8608,6 @@
 	)
 	(label "MMC2_D7"
 		(at 167.64 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8619,7 +8618,6 @@
 	)
 	(label "MMC2_D0"
 		(at 177.8 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8630,7 +8628,6 @@
 	)
 	(label "MMC2_D3"
 		(at 177.8 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8641,7 +8638,6 @@
 	)
 	(label "TDI"
 		(at 104.14 233.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8652,7 +8648,6 @@
 	)
 	(label "SWO{slash}TDO"
 		(at 114.3 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8663,7 +8658,6 @@
 	)
 	(label "MMC2_D7"
 		(at 256.54 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8674,7 +8668,6 @@
 	)
 	(label "SWDIO{slash}TMS"
 		(at 53.34 231.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8685,7 +8678,6 @@
 	)
 	(label "MMC2_D4"
 		(at 167.64 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8696,7 +8688,6 @@
 	)
 	(label "MMC2_D5"
 		(at 167.64 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8707,7 +8698,6 @@
 	)
 	(label "MMC2_D2"
 		(at 177.8 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8718,7 +8708,6 @@
 	)
 	(label "MMC2_D5"
 		(at 177.8 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8729,7 +8718,6 @@
 	)
 	(label "~{TRST}"
 		(at 105.41 231.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8740,7 +8728,6 @@
 	)
 	(label "MMC2_D0"
 		(at 167.64 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8751,7 +8738,6 @@
 	)
 	(label "~{TRST}"
 		(at 114.3 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8762,7 +8748,6 @@
 	)
 	(label "SWCLK{slash}TCK"
 		(at 53.34 236.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8773,7 +8758,6 @@
 	)
 	(label "TDI"
 		(at 114.3 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8784,7 +8768,6 @@
 	)
 	(label "SWDIO{slash}TMS"
 		(at 114.3 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8795,7 +8778,6 @@
 	)
 	(label "MMC2_D4"
 		(at 177.8 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8806,7 +8788,6 @@
 	)
 	(label "MMC2_D2"
 		(at 167.64 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8838,7 +8819,6 @@
 	)
 	(label "SWCLK{slash}TCK"
 		(at 114.3 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8849,7 +8829,6 @@
 	)
 	(label "SWO{slash}TDO"
 		(at 110.49 238.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8860,7 +8839,6 @@
 	)
 	(label "~{RESET}"
 		(at 101.6 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8871,7 +8849,6 @@
 	)
 	(label "MMC2_D6"
 		(at 167.64 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8882,7 +8859,6 @@
 	)
 	(label "MMC2_D3"
 		(at 167.64 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8893,7 +8869,6 @@
 	)
 	(label "MMC2_D1"
 		(at 177.8 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

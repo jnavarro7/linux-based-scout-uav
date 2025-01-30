@@ -3519,7 +3519,6 @@
 	)
 	(label "H_PCIE_TX_N"
 		(at 275.59 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3530,7 +3529,6 @@
 	)
 	(label "H_PCIE_TX_P"
 		(at 275.59 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -5,6 +5,108 @@
 	(uuid "0903783b-9e3c-4cf1-ace9-51f907175167")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1723,6 +1825,24 @@
 			)
 		)
 	)
+	(no_connect
+		(at 325.12 142.24)
+		(uuid "5cb1aace-f8f2-4c6a-8486-eb5ed8e811ac")
+	)
+	(no_connect
+		(at 325.12 144.78)
+		(uuid "63f80fb7-1711-4465-bf05-edcfd6a62b3e")
+	)
+	(wire
+		(pts
+			(xy 271.78 132.08) (xy 284.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c13dba5-eee3-4728-99b0-6ea67a147a8a")
+	)
 	(wire
 		(pts
 			(xy 68.58 151.13) (xy 91.44 151.13)
@@ -1732,6 +1852,16 @@
 			(type default)
 		)
 		(uuid "0ea70793-c811-4f9e-9172-3af63115786c")
+	)
+	(wire
+		(pts
+			(xy 271.78 129.54) (xy 284.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "105ed2e2-787c-4f0a-a534-dfa79f7c46db")
 	)
 	(wire
 		(pts
@@ -1785,13 +1915,43 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 116.84) (xy 351.79 116.84)
+			(xy 271.78 127) (xy 284.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63da298f-fe71-41f3-821c-f97c17945273")
+	)
+	(wire
+		(pts
+			(xy 325.12 116.84) (xy 342.9 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64cd52b7-53ea-4902-9b35-93cce8c47533")
+	)
+	(wire
+		(pts
+			(xy 271.78 124.46) (xy 284.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cecb6f-7646-4186-84b6-0803c724f2dc")
+	)
+	(wire
+		(pts
+			(xy 271.78 121.92) (xy 284.48 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af04879b-2d02-4862-93ee-d3401496752a")
 	)
 	(wire
 		(pts
@@ -1805,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 116.84) (xy 284.48 116.84)
+			(xy 271.78 116.84) (xy 284.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1873,6 +2033,28 @@
 		)
 		(uuid "c3e26305-34ba-4b89-b4f8-83e938feef7b")
 	)
+	(global_label "UART_TX"
+		(shape output)
+		(at 342.9 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45433c89-9cac-4fe0-ba3c-f5e84769e621")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.6866 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{SX1272_RESET}"
 		(shape passive)
 		(at 66.04 120.65 180)
@@ -1886,6 +2068,28 @@
 		(uuid "6c8dd323-b74d-4148-9223-c6bd1c655bea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.1964 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 271.78 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "948ae94a-24c9-43ec-aa13-dba1e16de3f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.691 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,6 +2294,138 @@
 			(project ""
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ecf4917e-c539-4d94-9930-0d98be4d8645"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50e75398-5a0e-4ba1-9fd8-506b0a3ea19f")
+		(property "Reference" "TP24"
+			(at 262.128 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 268.478 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 271.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c334fe88-36cb-4a91-a514-f21d51983e8f")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ecf4917e-c539-4d94-9930-0d98be4d8645"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67bbd443-d77d-4073-a979-f7612ba2f383")
+		(property "Reference" "TP22"
+			(at 262.128 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 268.478 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 271.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d35461f4-3e9d-41de-8107-b9e37b13eb28")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ecf4917e-c539-4d94-9930-0d98be4d8645"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -2366,6 +2702,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b63c31ce-767f-46eb-b38f-5fa4ac91b8be")
+		(property "Reference" "TP21"
+			(at 262.128 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 268.478 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d04385-e086-4562-b27b-7afb5665e89a")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ecf4917e-c539-4d94-9930-0d98be4d8645"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF:SX1272")
 		(at 106.68 130.81 0)
 		(unit 1)
@@ -2511,6 +2913,138 @@
 			(project ""
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ecf4917e-c539-4d94-9930-0d98be4d8645"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f52a66bb-57c7-4e9b-ae5e-f90cbf1c9dbb")
+		(property "Reference" "TP23"
+			(at 262.128 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 268.478 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 271.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8869a56f-15b5-413e-9cca-e9996517595c")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ecf4917e-c539-4d94-9930-0d98be4d8645"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa2ff13d-8c24-44e0-bc97-4ae4d7ef5a3a")
+		(property "Reference" "TP20"
+			(at 262.128 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 268.478 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 271.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b58e64a8-d2cd-408a-98ba-38c292d85c19")
+		)
+		(instances
+			(project ""
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/ecf4917e-c539-4d94-9930-0d98be4d8645"
+					(reference "TP20")
 					(unit 1)
 				)
 			)

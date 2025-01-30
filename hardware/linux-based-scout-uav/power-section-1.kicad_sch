@@ -2534,7 +2534,6 @@
 	)
 	(label "VBUS_MIN"
 		(at 153.67 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2545,7 +2544,6 @@
 	)
 	(label "ISNK_FINE"
 		(at 152.4 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2556,7 +2554,6 @@
 	)
 	(label "VBUS_MAX"
 		(at 40.64 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2567,7 +2564,6 @@
 	)
 	(label "ISNK_COARSE"
 		(at 152.4 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2578,7 +2574,6 @@
 	)
 	(label "ISNK_COARSE"
 		(at 107.95 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2589,7 +2584,6 @@
 	)
 	(label "CC2"
 		(at 156.21 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +2594,6 @@
 	)
 	(label "ISNK_FINE"
 		(at 132.08 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2611,7 +2604,6 @@
 	)
 	(label " CC1"
 		(at 154.94 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2622,7 +2614,6 @@
 	)
 	(label "VBUS_MAX"
 		(at 153.67 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2633,7 +2624,6 @@
 	)
 	(label "VBUS_MIN"
 		(at 63.5 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2644,7 +2634,6 @@
 	)
 	(label "CC2"
 		(at 100.33 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2655,7 +2644,6 @@
 	)
 	(label "CC1"
 		(at 44.45 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

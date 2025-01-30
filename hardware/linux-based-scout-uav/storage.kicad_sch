@@ -5732,7 +5732,6 @@
 	)
 	(label "MMC2_D3"
 		(at 270.51 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5743,7 +5742,6 @@
 	)
 	(label "MMC2_D3"
 		(at 280.67 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5754,7 +5752,6 @@
 	)
 	(label "MMC2_D4"
 		(at 280.67 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5765,7 +5762,6 @@
 	)
 	(label "MMC2_D2"
 		(at 280.67 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5776,7 +5772,6 @@
 	)
 	(label "MMC2_D2"
 		(at 270.51 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5787,7 +5782,6 @@
 	)
 	(label "MMC2_D4"
 		(at 270.51 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5819,7 +5813,6 @@
 	)
 	(label "MMC2_D7"
 		(at 270.51 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5830,7 +5823,6 @@
 	)
 	(label "MMC2_D6"
 		(at 270.51 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5841,7 +5833,6 @@
 	)
 	(label "MMC2_D5"
 		(at 270.51 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5852,7 +5843,6 @@
 	)
 	(label "MMC2_D7"
 		(at 280.67 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5905,7 +5895,6 @@
 	)
 	(label "MMC2_D5"
 		(at 280.67 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5916,7 +5905,6 @@
 	)
 	(label "MMC2_D6"
 		(at 280.67 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -2069,7 +2069,6 @@
 	)
 	(label "SIM_DATA"
 		(at 229.87 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,7 +2079,6 @@
 	)
 	(label "SIM_CLK"
 		(at 129.54 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2091,7 +2089,6 @@
 	)
 	(label "SIM_RST"
 		(at 129.54 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2102,7 +2099,6 @@
 	)
 	(label "SIM_VDD"
 		(at 229.87 214.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2109,6 @@
 	)
 	(label "SIM_CLK"
 		(at 179.07 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2124,7 +2119,6 @@
 	)
 	(label "SIM_RST"
 		(at 179.07 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2135,7 +2129,6 @@
 	)
 	(label "SIM_VDD"
 		(at 255.27 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2146,7 +2139,6 @@
 	)
 	(label "SIM_DATA"
 		(at 129.54 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
