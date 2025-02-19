@@ -3134,6 +3134,12 @@
 		(uuid "91e4b667-2060-48d3-a046-1035301c251c")
 	)
 	(junction
+		(at 331.47 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0b9d899-8748-4e1c-9982-1232db18db7d")
+	)
+	(junction
 		(at 46.99 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3351,6 +3357,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 161.29) (xy 331.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56080d9f-5420-46d8-9549-69a754d247c4")
+	)
+	(wire
+		(pts
 			(xy 50.8 163.83) (xy 50.8 168.91)
 		)
 		(stroke
@@ -3431,6 +3447,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 163.83) (xy 331.47 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75462925-e3b7-4633-9287-dc577dfb6a81")
+	)
+	(wire
+		(pts
 			(xy 36.83 76.2) (xy 55.88 76.2)
 		)
 		(stroke
@@ -3498,6 +3524,16 @@
 			(type default)
 		)
 		(uuid "8b403d86-a0b0-49ca-b59e-0e03115d09bc")
+	)
+	(wire
+		(pts
+			(xy 322.58 163.83) (xy 331.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7265a3-80c6-45dc-a208-80dffafe4c85")
 	)
 	(wire
 		(pts
@@ -3718,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "e688dc7d-4467-4a02-90fb-3a97649ec67e")
+	)
+	(wire
+		(pts
+			(xy 322.58 161.29) (xy 331.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ea3470-b38f-4418-8251-b98c9fe2fa82")
 	)
 	(wire
 		(pts
@@ -4742,6 +4788,72 @@
 			(project "linux-based-scout-uav"
 				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 331.47 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "359cd136-16b7-4db6-86e5-de50c80be357")
+		(property "Reference" "#PWR045"
+			(at 331.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 331.47 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 331.47 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beff5938-8bc2-4480-941d-967474bb986a")
+		)
+		(instances
+			(project "linux-based-scout-uav"
+				(path "/e9b29a7c-bbe5-4ab4-acee-985586e1266a/a91084ce-30c2-4c08-a9de-234ec8328b30"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
