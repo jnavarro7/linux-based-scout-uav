@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7e7bca7c-27b7-483c-ac0c-f2a3e834af44")
 	(paper "A3")
 	(lib_symbols
@@ -227,12 +227,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+BATT"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -304,7 +309,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -316,7 +321,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -347,12 +352,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -443,12 +453,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VBUS"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -520,7 +535,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -532,7 +547,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -563,7 +578,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "2S-6S LiPo battery "
+		(exclude_from_sim no)
+		(at 101.346 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b0ef54b-61be-4519-a544-9efa33f2d1ad")
+	)
+	(text "Battery Power\nバッテリー電源"
+		(exclude_from_sim no)
+		(at 201.168 27.178 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+			)
+		)
+		(uuid "3399ca35-3eba-4617-8c25-b263622a7984")
 	)
 	(wire
 		(pts
@@ -634,26 +670,6 @@
 			(type default)
 		)
 		(uuid "fe546fa8-b5c9-44be-b029-ac395d1ea140")
-	)
-	(text "2S-6S LiPo battery "
-		(exclude_from_sim no)
-		(at 101.346 61.214 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2b0ef54b-61be-4519-a544-9efa33f2d1ad")
-	)
-	(text "Battery Power\nバッテリー電源"
-		(exclude_from_sim no)
-		(at 201.168 27.178 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-			)
-		)
-		(uuid "3399ca35-3eba-4617-8c25-b263622a7984")
 	)
 	(symbol
 		(lib_id "power:GND")

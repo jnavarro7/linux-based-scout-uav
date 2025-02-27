@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7cbf67eb-9fe8-40e1-b639-2fdca6c7962a")
 	(paper "A3")
 	(lib_symbols
@@ -160,17 +160,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -2.54 180)
+				(pin input line
+					(at -12.7 5.08 0)
 					(length 2.54)
-					(name "AVDD-PC"
+					(name "AD_SELECT"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "10"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -178,35 +178,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 0 180)
+				(pin bidirectional line
+					(at -12.7 0 0)
 					(length 2.54)
-					(name "DVDD-PC"
+					(name "INT"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(name "VPP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -250,17 +232,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -12.7 0 0)
+				(pin power_in line
+					(at 15.24 5.08 180)
 					(length 2.54)
-					(name "INT"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -268,17 +250,53 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 5.08 0)
+				(pin power_in line
+					(at 15.24 2.54 180)
 					(length 2.54)
-					(name "AD_SELECT"
+					(name "VPP"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "DVDD-PC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "AVDD-PC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -304,28 +322,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 5.08 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -444,6 +447,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Sensor_Motion:MPU-6050"
 			(exclude_from_sim no)
@@ -534,17 +538,17 @@
 				)
 			)
 			(symbol "MPU-6050_1_1"
-				(pin input clock
-					(at -17.78 -7.62 0)
+				(pin bidirectional line
+					(at -17.78 7.62 0)
 					(length 5.08)
-					(name "CLKIN"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,17 +556,35 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 -7.62 180)
+				(pin input line
+					(at -17.78 5.08 0)
 					(length 5.08)
-					(name "REGOUT"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -588,17 +610,148 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 7.62 180)
+				(pin input clock
+					(at -17.78 -7.62 0)
 					(length 5.08)
-					(name "INT"
+					(name "CLKIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 17.78 270)
+					(length 3.81)
+					(name "VLOGIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -625,26 +778,9 @@
 					)
 				)
 				(pin no_connect line
-					(at -12.7 -10.16 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at 12.7 12.7 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -662,7 +798,8 @@
 				)
 				(pin no_connect line
 					(at 12.7 10.16 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -680,7 +817,8 @@
 				)
 				(pin no_connect line
 					(at 12.7 5.08 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -696,81 +834,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -10.16 180)
-					(length 2.54) hide
-					(name "RESV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 12.7 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "CPOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 12.7 -2.54 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "RESV"
 						(effects
 							(font
@@ -787,8 +854,28 @@
 					)
 				)
 				(pin no_connect line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
 					(at 12.7 -12.7 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "RESV"
 						(effects
 							(font
@@ -804,89 +891,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 5.08 0)
+				(pin output line
+					(at 17.78 7.62 180)
 					(length 5.08)
-					(name "SCL"
+					(name "INT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 10.16 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 0 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 -2.54 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -930,17 +945,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 17.78 270)
-					(length 3.81)
-					(name "VLOGIC"
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "CPOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -948,17 +963,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 2.54 0)
+				(pin passive line
+					(at 17.78 -7.62 180)
 					(length 5.08)
-					(name "AD0"
+					(name "REGOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -967,12 +982,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1044,7 +1064,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1056,7 +1076,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1087,12 +1107,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1183,7 +1208,85 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 19.05 92.71)
+		(end 170.18 173.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2069c452-31e0-4fe5-a67c-b682ab5201bd)
+	)
+	(rectangle
+		(start 195.58 92.71)
+		(end 346.71 173.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39aa8bd8-1b1d-47b3-b54f-adf82ddc226b)
+	)
+	(rectangle
+		(start 19.05 182.88)
+		(end 170.18 243.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 96821aca-f1cf-40a4-9d34-c1016a1e0267)
+	)
+	(text "AMG8833"
+		(exclude_from_sim no)
+		(at 272.542 98.552 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "2e05c14f-d34c-49c1-82a5-57c359f6cf96")
+	)
+	(text "I2C1 Pull-up resistor"
+		(exclude_from_sim no)
+		(at 90.932 188.468 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "4d09a712-a014-4a5d-9fa0-21edec620061")
+	)
+	(text "Sensors\nセンサー"
+		(exclude_from_sim no)
+		(at 211.582 29.464 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "87bbe1b0-4109-4eb4-b90b-85fae7bad402")
+	)
+	(text "MPU-6050"
+		(exclude_from_sim no)
+		(at 95.25 97.79 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "fd4ea01b-43bb-47b8-888c-d6389db1e5ab")
 	)
 	(junction
 		(at 100.33 212.09)
@@ -1426,83 +1529,6 @@
 			(type default)
 		)
 		(uuid "f9931815-c5fb-4720-9087-600ec3080873")
-	)
-	(rectangle
-		(start 19.05 92.71)
-		(end 170.18 173.99)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2069c452-31e0-4fe5-a67c-b682ab5201bd)
-	)
-	(rectangle
-		(start 195.58 92.71)
-		(end 346.71 173.99)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 39aa8bd8-1b1d-47b3-b54f-adf82ddc226b)
-	)
-	(rectangle
-		(start 19.05 182.88)
-		(end 170.18 243.84)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 96821aca-f1cf-40a4-9d34-c1016a1e0267)
-	)
-	(text "AMG8833"
-		(exclude_from_sim no)
-		(at 272.542 98.552 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "2e05c14f-d34c-49c1-82a5-57c359f6cf96")
-	)
-	(text "I2C1 Pull-up resistor"
-		(exclude_from_sim no)
-		(at 90.932 188.468 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "4d09a712-a014-4a5d-9fa0-21edec620061")
-	)
-	(text "Sensors\nセンサー"
-		(exclude_from_sim no)
-		(at 211.582 29.464 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 10.16 10.16)
-			)
-		)
-		(uuid "87bbe1b0-4109-4eb4-b90b-85fae7bad402")
-	)
-	(text "MPU-6050"
-		(exclude_from_sim no)
-		(at 95.25 97.79 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "fd4ea01b-43bb-47b8-888c-d6389db1e5ab")
 	)
 	(global_label "I2C1_SCL"
 		(shape input)

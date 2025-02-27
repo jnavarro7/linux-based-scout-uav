@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c4b3e01d-2ff5-4a94-8c4d-f391ec6cc48b")
 	(paper "A3")
 	(lib_symbols
@@ -200,17 +200,17 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -20.32 180)
+				(pin input line
+					(at -25.4 12.7 0)
 					(length 5.08)
-					(name "GND"
+					(name "~{RESET}"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -218,17 +218,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -20.32 180)
+				(pin input line
+					(at -25.4 10.16 0)
 					(length 5.08)
-					(name "GND"
+					(name "D_SEL"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "10"
+					(number "24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -247,78 +247,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -20.32 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 10.16 180)
-					(length 5.08)
-					(name "ANT_ON"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 17.78 180)
-					(length 5.08)
-					(name "VDD_RF"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -25.4 -20.32 0)
-					(length 5.08)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -355,150 +283,6 @@
 						)
 					)
 					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -25.4 -20.32 0)
-					(length 5.08)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -25.4 -20.32 0)
-					(length 5.08)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -15.24 0)
-					(length 5.08)
-					(name "SPI_CS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 2.54 180)
-					(length 5.08)
-					(name "GEOFENCE"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "JAM_IND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "3D_FIX"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 10.16 0)
-					(length 5.08)
-					(name "D_SEL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -560,17 +344,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 25.4 -20.32 180)
+				(pin bidirectional line
+					(at -25.4 -15.24 0)
 					(length 5.08)
-					(name "GND"
+					(name "SPI_CS"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "28"
+					(number "20"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -578,17 +362,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 25.4 -10.16 180)
+				(pin no_connect line
+					(at -25.4 -20.32 0)
 					(length 5.08)
-					(name "RXD"
+					(name "RESERVED"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -596,17 +380,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 25.4 5.08 180)
+				(pin no_connect line
+					(at -25.4 -20.32 0)
 					(length 5.08)
-					(name "1PPS"
+					(name "RESERVED"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "18"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -614,35 +398,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 25.4 7.62 180)
+				(pin no_connect line
+					(at -25.4 -20.32 0)
 					(length 5.08)
-					(name "~{AP_REQ}"
+					(name "RESERVED"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 15.24 180)
-					(length 5.08)
-					(name "V_BCKP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
+					(number "19"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -686,17 +452,251 @@
 						)
 					)
 				)
-				(pin input line
-					(at -25.4 12.7 0)
+				(pin power_in line
+					(at 25.4 17.78 180)
 					(length 5.08)
-					(name "~{RESET}"
+					(name "VDD_RF"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "9"
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 15.24 180)
+					(length 5.08)
+					(name "V_BCKP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 10.16 180)
+					(length 5.08)
+					(name "ANT_ON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 7.62 180)
+					(length 5.08)
+					(name "~{AP_REQ}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 5.08 180)
+					(length 5.08)
+					(name "1PPS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 2.54 180)
+					(length 5.08)
+					(name "GEOFENCE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "3D_FIX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "JAM_IND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 25.4 -20.32 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -705,12 +705,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -801,7 +806,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "GNSS"
+		(exclude_from_sim no)
+		(at 203.962 27.178 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 10.16 10.16)
+			)
+		)
+		(uuid "cfe45155-43a7-42ed-8fef-b273b908163e")
 	)
 	(wire
 		(pts
@@ -822,17 +839,6 @@
 			(type default)
 		)
 		(uuid "6c6b6de0-da29-4980-b872-a7a90c1d0aae")
-	)
-	(text "GNSS"
-		(exclude_from_sim no)
-		(at 203.962 27.178 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 10.16 10.16)
-			)
-		)
-		(uuid "cfe45155-43a7-42ed-8fef-b273b908163e")
 	)
 	(symbol
 		(lib_id "LC76G:LC76G")
