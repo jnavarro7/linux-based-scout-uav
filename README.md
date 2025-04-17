@@ -60,9 +60,9 @@ Started working on the schematic capture, schematic in PDF format will be added 
 
 Started work on board by trying board shapes and importing the DXF files. Already placed the initial components available, will update as needed. 
 
-![](/doc/top.jpg)
+![](/doc/3d-viewer.JPG)
 
-![](/doc/bottom.jpg)
+![](/doc/ratnest-placement.JPG)
 
 
 ## EDA
